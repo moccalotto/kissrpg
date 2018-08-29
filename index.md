@@ -3,16 +3,20 @@ title: KISS RPG
 layout: home
 ---
 
-Kiss is a set of simple and all-purpose tabletop role playing game rules meant for all types of campaigns.
-They are based on the principle that the rules should not interfere with your style of play.
+Kiss is a set of simple and all-purpose tabletop role playing game rules meant for all types of campaigns,
+however the resources given in this document are designed for the classic medieval fantasy setting.
 
 Dice and Tests
 ==============
 
 To see if something succeeds, we roll a d10 (called the base die) against a given target number.
-This is called a test. If you are particularly skilled at doing something, you also add another dice (called a skill dice). So for instance, if you have the melee skill at the advanced level, you roll d10 + d6 when attacking someone in melee combat. The target number would be the targets Physical Defense rating. If, on the other hand you are not skilled in melee at all, you would only roll your d10 against the same target number.
+This is called a test. If you are particularly skilled at doing something, 
+you also add another dice (called a skill dice). 
+So for instance, if you have the melee skill at the advanced level, you roll d10 + d6 when attacking someone in melee combat.
+The target number would be the targets Physical Defense rating.
+If, on the other hand you are not skilled in melee at all, you would only roll your d10 against the same target number.
 
-**The lucky base die**: When you roll a 10 on your base die, you may roll it again and at the result.
+**Base Die**: When you roll a 10 on your base die, you may roll it again and at the result.
 You can do this as long as you keep rolling 10s.
 If your base die has been modified, this rule still applies as long as you roll the highest possible number on the die.
 This rule only applies to the base die.
@@ -180,3 +184,6 @@ Does it cost FP to remove consequences?
 Can costs be circumvented by “hospitalization”, prolonged downtime, etc. ?
 If consequences can be removed by medical technology and magic, would an FP cost have to be paid by the doctor/caster?
 
+
+Advancement
+-----------
