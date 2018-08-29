@@ -131,10 +131,12 @@ Once per session, at the cost of 2 karma points, the GM can enforce your obsessi
 
 **Infamous**: Once per session, at the cost of 1 karma point, the GM can rule that you failed a given social challenge because of your bad reputation.
 
-**Favor**: You owe a favor to a powerful person, organization, or entity. Once per session, at the cost of 3 karma points, the GM can invoke this debt to create a conflict for you or your party.
+**Favor**: You owe a favor to a powerful person, organization, or entity.
+Once per session, at the cost of 3 karma points, the GM can invoke this debt to create a conflict for you or your party.
 
 **Weak**: You have trouble with forced marches, etc.
-At the cost of 3 karma points, the GM can limit your ability to perform demanding physical tasks over long periods of time. At the cost of 2 karma points the GM can enforce your weakness by making you reroll the base die of a check that relies heavily on endurance.
+At the cost of 3 karma points, the GM can limit your ability to perform demanding physical tasks over long periods of time.
+At the cost of 2 karma points the GM can enforce your weakness by making you reroll the base die of a check that relies heavily on endurance.
 
 **Infirm**: You easily get sick.
 At the cost of 2 karma points the GM can make you reroll the base die of a check to resist disease or poison.
