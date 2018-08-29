@@ -1,3 +1,8 @@
+---
+title: KISS RPG
+layout: home
+---
+
 Kiss RPG
 ========
 
