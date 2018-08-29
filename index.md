@@ -3,9 +3,6 @@ title: KISS RPG
 layout: home
 ---
 
-Kiss RPG
-========
-
 Kiss is a set of simple and all-purpose tabletop role playing game rules meant for all types of campaigns.
 They are based on the principle that the rules should not interfere with your style of play.
 
