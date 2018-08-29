@@ -1,0 +1,60 @@
+- name: Melee
+  description: Attack with melee weapons
+- name: Ranged Combat
+  description: Attack with ranged- and thrown weapons.
+- name: Sorcery
+  description: Cast Sorcery spells. You must have the *Sorcerer* advantage to learn this skill.
+- name: Witchcraft
+  description: Cast Witchcraft spells. You must have the *Witch* advantage to learn this skill.
+
+
+- name: Acrobatics
+  description: Climb, jump, tumble and stunts.
+
+- name: Appraisal
+  description:
+    Estimate price and authenticity of artwork,
+    gems, coins, weapons, armor, buildings, etc.
+
+- name: Athletics
+  description: Run, march, swim, endure physical stress.
+
+- name: '[Craft]'
+  description: |
+    [Craft] can be a craft, art or science such as
+    alchemy, blacksmithing, carpentry, engineering, gambling, masonry or painting.
+
+- name: Creature Lore
+  description: |
+    Guestimate an approximation of a key knowledge such as Movement Rate,
+    Defense Points, Hit Points, an Attribute Score, Skill Score, etc.
+
+- name: Deception
+  description: Disguise, bluff, lie, impersonate.
+
+- name: Geography
+  description: Travel routes, local area knowledge, imports/exports, local prices, local laws.
+
+- name: Healing
+  description: |
+    First Aid, identify diseases and poisons.
+    You can heal 1d6 HP on a successful Healing check.
+    A creature can only receive one such healing per day.
+
+- name: History
+  description: Local lore, ancient lore. Knowledge of the old gods, of ancient cultures, races heroes and items.
+
+- name: Negotiation
+  description: Intimidation, haggling, interrogation.
+
+- name: Riding
+  description: Horses, stags, griffons.
+
+- name: Stealth
+  description: Hide, sneak, camouflage.
+
+- name: Survival
+  description: Hunting, gathering, direction sense.
+
+- name: Thievery
+  description: Pick locks, slight of hand.

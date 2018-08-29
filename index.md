@@ -1,10 +1,14 @@
 ---
 title: KISS RPG
-layout: home
+layout: post
 ---
 
 Kiss is a set of simple and all-purpose tabletop role playing game rules meant for all types of campaigns,
 however the resources given in this document are designed for the classic medieval fantasy setting.
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+You are free to share and adapt this material for any purpose, including commercially, 
+as long as you give attribution.
+
 
 Dice and Tests
 ==============
@@ -12,7 +16,7 @@ Dice and Tests
 To see if something succeeds, we roll a d10 (called the base die) against a given target number.
 This is called a test. If you are particularly skilled at doing something,
 you also add another dice (called a skill dice).
-So for instance, if you have the melee skill at the advanced level, you roll d10 + d6 when attacking someone in melee combat.
+So for instance, if you have the melee skill at the journeyman level, you roll d10 + d6 when attacking someone in melee combat.
 The target number would be the targets Physical Defense rating.
 If, on the other hand you are not skilled in melee at all, you would only roll your d10 against the same target number.
 
@@ -25,9 +29,9 @@ This rule only applies to the base die.
 **Hero Die**:
 A sufficiently advanced and skilled character is usually better at everything they do.
 As such they may add a hero die to all rolls.
-So for instance, if a character has a d4 hero die, and has the melee skill at the advanced level, she may roll d10 + d4 + d6 when performing melee attacks.
+So for instance, if a character has a d4 hero die, and has the melee skill at the journeyman level, she may roll d10 + d4 + d6 when performing melee attacks.
 
-**Karma PoinTs**:
+**Karma Points**:
 Whenever your character fails a meaningful roll (i.e.  one that actually affects the character, party or plot),
 they are awarded a karma point. Your character can spend these points to create advantages later in the game.
 Most notably, your character can spend 3 karma points to reroll their base die.
@@ -39,8 +43,9 @@ High powered campaigns might reset the karma to 3 or 4, while more realistic cam
 karma to 1 or 0. Some players prefer not to reset at all, possibly imposing upper limits on how many
 karma points a character can have.
 
-Advantages and Disadvantages
-============================
+Traits
+======
+
 New characters have two advantages and one disadvantage.
 Consult the lists below for inspiration and make up your own to suit your campaign and style of play.
 
@@ -51,6 +56,8 @@ If you want more powerful players, you could use three advantages and one or two
 
 
 ### Advantages
+
+
 {% assign advantages = site.data.advantages | sort: 'name' %}
 
 {% for item in advantages %}
@@ -75,7 +82,26 @@ If you want more powerful players, you could use three advantages and one or two
 Skills
 ======
 
-Skils
+There are 6 skill levels:
+
+Untrained, 
+Novice     (d4),
+Journeyman (d6),
+Advanced   (d8),
+Expert     (d10), and
+Master     (d12)
+
+A character starts with 3 skills at the novice level, 2 skills at the Journeyman level, and 1 skill at the advanced level,
+all other skills are untrained.
+
+{% assign skills = site.data.skills | sort: 'name' %}
+{% for item in skills %}
+**{{ item.name}}**:
+{{ item.description }}
+{% if item.remark %}
+> {{ item.remark }}
+{% endif %}
+{% endfor %}
 
 Equipment
 =========
