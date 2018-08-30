@@ -37,11 +37,13 @@ they are awarded a karma point. Your character can spend these points to create 
 Most notably, your character can spend 3 karma points to reroll their base die.
 Character begin every session with exactly 2 karma points, no matter how many points they accumulated during
 the previous session.
-> This is intended to avoid power gaming through the accumulation of karma points.
-It also allows players to refresh their karma without having to fail any checks.
-High powered campaigns might reset the karma to 3 or 4, while more realistic campaigns might reset
-karma to 1 or 0. Some players prefer not to reset at all, possibly imposing upper limits on how many
-karma points a character can have.
+> Karma points are intended to soften the "blow" of missing a roll, as well as adding a
+> luck/fate dimension to the game.
+> We reset the karma every session to avoid power gaming through the accumulation of karma points.
+> It also allows players to refresh their karma without having to fail any checks.
+> High powered campaigns might reset the karma to 3 or 4, while more realistic campaigns might reset
+> karma to 1 or 0. Some players prefer not to reset at all, possibly imposing upper limits on how many
+> karma points a character can have.
 
 Traits
 ======
