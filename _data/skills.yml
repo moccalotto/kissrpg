@@ -38,8 +38,6 @@
 - name: Healing
   description: |
     First Aid, identify diseases and poisons.
-    You can heal 1d6 HP on a successful Healing check.
-    A creature can only receive one such healing per day.
 
 - name: History
   description: Local lore, ancient lore. Knowledge of the old gods, of ancient cultures, races heroes and items.

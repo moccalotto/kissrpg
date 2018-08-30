@@ -36,6 +36,7 @@
 - name: Fast
   description: |
       During combat you can move extra squares at the cost of 1 karma point per square.
+  remark: |
       If you use areas instead of squares, you may spend 2 karma points to make an extra move, but only once per round.
 
 - name: Street Smart

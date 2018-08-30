@@ -4,6 +4,7 @@
 - name: Short Legs
   description: |
       You can only move 4 squares per round instead of 5. If you do not use squares (i.e.
+  remark: |
       if you use areas instead), you must succeed a base(3) roll in order to be able to move to an adjacent area.
 
 - name: Addicted

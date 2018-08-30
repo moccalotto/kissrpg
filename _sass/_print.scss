@@ -47,19 +47,6 @@
         break-inside: avoid;
     }
 
-    table.list {
-        column-span: none;
-        break-inside: avoid;
-
-        tbody {
-            break-inside: avoid;
-        }
-    }
-
-    table.list.column {
-        column-span: all;
-    }
-
     header h1 {
         border-bottom: .05pt solid $grey-color;
         column-span: all;

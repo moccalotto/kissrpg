@@ -9,7 +9,6 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 You are free to share and adapt this material for any purpose, including commercially, 
 as long as you give attribution.
 
-
 Dice and Tests
 ==============
 
@@ -21,10 +20,13 @@ The target number would be the targets Physical Defense rating.
 If, on the other hand you are not skilled in melee at all, you would only roll your d10 against the same target number.
 
 **Base Die**:
-When you roll a 10 on your base die, you may roll it again and at the result.
+When you roll a 10 on your base die, you may roll it again and add the result.
 You can do this as long as you keep rolling 10s.
 If your base die has been modified, this rule still applies as long as you roll the highest possible number on the die.
 This rule only applies to the base die.
+
+> Re-rolling the base die is intended to introduce some luck into the game such that even a layperson
+> will succeed on ocation.
 
 **Hero Die**:
 A sufficiently advanced and skilled character is usually better at everything they do.
@@ -37,6 +39,7 @@ they are awarded a karma point. Your character can spend these points to create 
 Most notably, your character can spend 3 karma points to reroll their base die.
 Character begin every session with exactly 2 karma points, no matter how many points they accumulated during
 the previous session.
+
 > Karma points are intended to soften the "blow" of missing a roll, as well as adding a
 > luck/fate dimension to the game.
 > We reset the karma every session to avoid power gaming through the accumulation of karma points.
@@ -52,8 +55,8 @@ New characters have two advantages and one disadvantage.
 Consult the lists below for inspiration and make up your own to suit your campaign and style of play.
 
 > By utilizing advantages and disadvantages, we eliminate the traditional stat-juggling, race-selection,
-and subsequent tweaking via feats, subraces, etc.
-If you want more powerful players, you could use three advantages and one or two disadvantages.
+> and subsequent tweaking via feats, subraces, etc.
+> If you want more powerful players, you could use three advantages and one or two disadvantages.
 
 
 
@@ -108,39 +111,95 @@ all other skills are untrained.
 Equipment
 =========
 
+{% assign goods = site.data.goods | sort: 'name' %}
+{% for item in goods %}
+ **{{ item.name}}** | {{ item.cost }}
+{%- endfor %}
+
 
 Playing the game
 ================
 
 Stress
 ------
-When a character is wounded or receives some other kind of stress, they receive Stress Points. Once a character accumulates 10 Stress Points, they receive a Consequence, but they then reset the number of accumulated stress points to zero. Stress points do not carry over. For example if a character with 8 stress points receives additional 5 stress points from a single wound, they get a consequence, but the stress counter is still reset to zero. Thus, it would not have mattered if the character got a 2 point wound or a 15 point wound. Note that certain special types of attacks allow damage to be carried over. Such attacks are called vorpal attacks.
+When a character is wounded or receives some other kind of stress, they receive Stress Points.
+Once a character accumulates 10 Stress Points they receive a Consequence and reset their stress-counter.
+Stress points do not carry over.
+> **Example**: If a character with 8 stress points receives additional 5 stress points from a single wound,
+> they get a consequence, but the stress counter is still reset to zero.
+> Thus, it would not have mattered if the character got a 2 point wound or a 15 point wound.
 
-Once per round the character can reduce the amount of damage she receives by 1 stress point. This costs one karma point.
-Consequences
-How do consequences affect the character?
-The character should get weaker as they accumulate consequences.
-Do consequences have names or named “levels”?
-Is there more than one kind of consequence?¨
-Is there an “unconsciousness” consequence?
-Is there a “death” consequence?
-Healing and recovery
-How are stress points removed?
-How fast do they regenerate naturally?
-I think they regenerate on a “short rest”. (I.e. at the end of the scene).
-Is there a “second wind” that can be used during combat?
-I think yes.
-Would a “second wind” cost TP?
-Regenerating a little bit should be free, provided the cha spends their entire round doing it.
-Regenerating by spending only your main action should incur a cost.
-Regenerating a large number of points in one go should incur a cost.
-Can spells remove consequences (almost) instantly?
-Can medical technology remove consequences (almost) instantly?
-Can consequences go away naturally over time?
-Is there a limit on how fast consequences can be removed?
-Does it cost FP to remove consequences?
-Can costs be circumvented by “hospitalization”, prolonged downtime, etc. ?
-If consequences can be removed by medical technology and magic, would an FP cost have to be paid by the doctor/caster?
+Note that certain special types of attacks allow damage to be carried over.
+Such attacks are called vorpal attacks.
+
+> Stress and consequences is a way of ensuring that characters do not get one-shot-killed.
+> Under normal circumstances, it would require a number of hits to kill a character.
+> Vorpal attacks ensure that certain rare kinds of attacks can still kill a character
+> in one go.
+
+| Consequences      | Effect                                                |
+|:------------------|:------------------------------------------------------|
+| 0                 | No effects, base die is not modified (usually d10).   |
+| 1                 | Base die is one step below nominal   (usually d8).    |
+| 2                 | Base die is 2 steps below nominal    (usually d6).    |
+| 3                 | Base die is 3 steps below nominal    (usually d4).    |
+| 4                 | Unconsciousness.                                      |
+| 6                 | Death.                                                |
+
+Healing and Recovery
+--------------------
+
+During combat, a character can take a *second wind* action that removes (base die) stress points.
+This costs one karma point.
+
+If resting for five minutes, a character can reset their stress counter to 0.
+
+Immediately after combat, a character can spend karma point, rest for five minutes,
+and remove one consequence.
+
+A character who is trained in the *healing* skill can remove one consequence from a
+willing subject. This takes about half an hour and requires a successful healing(10) test.
+
+A character who receives 8 hours of uninterrupted rest in a safe haven can remove one consequence
+when waking up.
+
+A character may also receive magical healing.
+
+> If you want a more "deadly" campaign, you can create a rule that
+> disallows more than two (or even one) healings per day. I.e.
+> No matter how a character is healed, no more than two consequences
+> can be removed from that character per day (or even session).
+
+Combat
+------
+
+At the beginning of each combat round, each side rolls a d10.
+The side with the highest roll gets to go first.
+
+On a side's turn, each of its combatants may move up to 5 squares
+and take one action.
+
+An action can be:
+
+- Move 5 more squares.
+- Attack a target within range.
+- Cast a spell.
+- Spend one karma point and remove (base die) stress points.
+- Drink a potion.
+- Etc.
+
+A character cannot use a missile weapon or cast a ranged spell if engaged in melee combat.
+
+> **Areas**: If you prefer to simplify combat a bit, you can use areas instead of squares. An
+> area could be a small- or medium sized room, or a part of a large room.
+> Moving from one area to an adjacent area is equivalent to moving 5 squares.
+> You can make melee attacks against any opponent in your area.
+> You can make missile attacks in the adjacent areas.
+> You can use ranged attacks and spells even if there are opponents in your area.
+>
+> If you want combat to be a bit more more slow-paced,
+> you can rule that it requires an action to move from one area to the next.
+> This way, characters cannot move more than one area per round.
 
 
 Advancement
