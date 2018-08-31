@@ -66,7 +66,7 @@
 
 - name: Shield
   cost:  50
-  defense: +1
+  defense: '+1'
   stressThreshold: ±0
   loadPoints: 1
 

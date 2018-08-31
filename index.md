@@ -1,5 +1,4 @@
 ---
-title: KISS RPG
 layout: post
 ---
 
@@ -11,10 +10,6 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 You are free to share and adapt this material for any purpose, including commercially, 
 as long as you give attribution.
 
-License information available online at
-<a href="{{ site.url }}{{ site.baseurl }}/about">
-    {{ site.url }}{{ site.baseurl }}/about
-</a>
 
 Dice and Tests
 ==============
@@ -120,9 +115,6 @@ and 1 skill at the advanced level, all other skills are untrained.
 {% endif %}
 {% endfor %}
 
-{:.page-break}
-<br>
-
 Equipment
 =========
 
@@ -135,6 +127,11 @@ Items have Load Points that represent how difficult they are to lug around.
 
 **Carrying Capacity**: A character can carry 10 load points. Certain advantages, spells, and items
 may increase or reduce a character's carrying capacity.
+
+> **Note**: The load point system is completely mandatory.
+> It is intended to be a quick and dirty way of ensuring that PCs have restrictions on
+> how much stuff they can lug around with them in case these rules are used in a
+> [OSR](https://en.wikipedia.org/wiki/Old_School_Revival)-type campaign.
 
 ### Armors
 
