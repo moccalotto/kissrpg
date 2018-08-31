@@ -11,9 +11,9 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 You are free to share and adapt this material for any purpose, including commercially, 
 as long as you give attribution.
 
-License information available online at [{{ site.baseurl }}/about]({{ site.baseurl }}/about).
+License information available online at [{{ site.url }}/about]({{ site.url }}/about).
 
-Rules available online at [{{ site.baseurl }}]({{ site.baseurl }}).
+Rules available online at [{{ site.url }}]({{ site.url }}).
 
 Source available at [https://github.com/moccalotto/kissrpg](https://github.com/moccalotto/kissrpg).
 
