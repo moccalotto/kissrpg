@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-KISS RPG
-========
-
 KISS is a simple tabletop RPG.
 
 Check out [github](https://github.com/moccalotto/kissrpg) for the source code.
