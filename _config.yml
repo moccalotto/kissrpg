@@ -32,7 +32,6 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - Rakefile
-    - README.md
     - node_modules
     - vendor/bundle/
     - vendor/cache/

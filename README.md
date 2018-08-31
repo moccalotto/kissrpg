@@ -1,11 +1,15 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 KISS RPG
 ========
 
-Simple tabletop RPG.
+KISS is a simple tabletop RPG.
 
-Go to https://krhit.com/kissrpg/ to see the rules.
-and check out the `gh-pages` branch for the source code.
-
+Check out [github](https://github.com/moccalotto/kissrpg) for the source code.
 
 License
 -------
