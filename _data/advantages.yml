@@ -1,3 +1,11 @@
+# - name: Geek
+#   description: |
+#       XXXX Something about intelligence. Possibly extra skills, possibly extra spells known?
+# 
+# - name: Charming
+#   description: |
+#       XXXX Good at making new social connections.
+
 - name: Tiny
   description: |
       Once per scene you can completely avoid an attack.
@@ -8,10 +16,10 @@
   description: Same effect as the tiny advantage. A character that is both tiny and nimble will be able to avoid two attacks per scene.
 
 - name: Well-equipped
-  description: You have 200gp with which to purchase starting equipment rather than the usual 100.
+  description: You have 2000 copper pieces with which to purchase starting equipment rather than the usual 1000.
 
 - name: Wealthy
-  description: You begin play with 50gp rather than the usual 10gp.
+  description: You begin play with 500 copper pieces rather than the usual 100.
 
 - name: Tough
   description: |
@@ -65,14 +73,6 @@
   description: |
       You can accurately recall anything you have ever seen or heard at the cost of 1 karma point.
       It only costs you a single karma point to make rerolls during challenges that rely purely on your memory and experience.
-
-- name: Geek
-  description: |
-      XXXX Something about intelligence. Possibly extra skills, possibly extra spells known?
-
-- name: Charming
-  description: |
-      XXXX Good at making new social connections.
 
 - name: Polyglot
   description: |
