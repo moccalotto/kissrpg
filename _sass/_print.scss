@@ -22,10 +22,14 @@
 
     body {
         font: $print-font-weight #{$print-font-size}/#{$print-line-height} $print-font-family;
+        background: #fff !important;
+        color: #000;
     }
+
     blockquote {
         font-size: $print-font-size;
     }
+
     p {
         break-before: avoid;
         orphans: 2;
@@ -82,5 +86,9 @@
 
     .noprint {
         display:none;
+    }
+
+    .page-break {
+        display: block; page-break-before: always;
     }
 }

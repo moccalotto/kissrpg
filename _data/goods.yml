@@ -1,77 +1,76 @@
-- { name: "Acid (flask)", cost: 10gp }
-- { name: "Antidote, generic", cost: 50gp }
-- { name: "Artisan's Tools", cost: 5gp }
-- { name: "Backpack", cost: 2gp }
-- { name: "Barrel", cost: 2gp }
-- { name: "Basket", cost: 4sp }
-- { name: "Bedroll", cost: 1sp }
-- { name: "Bell", cost: 1gp }
-- { name: "Blanket, winter", cost: 5sp }
-- { name: "Block and Tackle", cost: 5gp }
-- { name: "Bottle, wine", cost: 2gp }
-- { name: "Bucket", cost: 5sp }
-- { name: "Caltrops", cost: 1gp }
-- { name: "Candle", cost: 1cp }
-- { name: "Canvas (1 sq meter)", cost: 1sp }
-- { name: "Case, map or scroll", cost: 1gp }
-- { name: "Chain (3m)", cost: 30gp }
-- { name: "Chalk, 1 piece", cost: 1cp }
-- { name: "Chest", cost: 2gp }
-- { name: "Craftsman's Tools", cost: 5gp }
-- { name: "Crowbar", cost: 2gp }
-- { name: "Disguise Kit", cost: 50gp }
-- { name: "Firewood (per day)", cost: 1cp }
-- { name: "Fishhook", cost: 1sp }
-- { name: "Fishing net 4 sq meters", cost: 4gp }
-- { name: "Flask", cost: 3cp }
-- { name: "Flint and Steel", cost: 1gp }
-- { name: "Grappling Hook", cost: 1gp }
-- { name: "Hammer", cost: 5sp }
-- { name: "Healer's Kit", cost: 50gp }
-- { name: "Hourglass", cost: 25gp }
-- { name: "Ink or dye, small vial", cost: 8gp }
-- { name: "Ink pen", cost: 1sp }
-- { name: "Jug, clay", cost: 3cp }
-- { name: "Ladder, 3m", cost: 5cp }
-- { name: "Lamp, common", cost: 1sp }
-- { name: "Lantern, bull's eye", cost: 12gp }
-- { name: "Lantern, hooded", cost: 7gp }
-- { name: "Lock, average", cost: 40gp }
-- { name: "Lock, good", cost: 80gp }
-- { name: "Lock, simple", cost: 20gp }
-- { name: "Magnifying Glass", cost: 90gp }
-- { name: "Manacles", cost: 15gp }
-- { name: "Mirror, small bronze", cost: 10gp }
-- { name: "Mug/Tankard, clay", cost: 2cp }
-- { name: "Musical Instrument", cost: 5gp }
-- { name: "Oil, 1 litre, without container", cost: 2sp }
-- { name: "Paper, single sheet", cost: 4sp }
-- { name: "Parchment, single sheet", cost: 2sp }
-- { name: "Pick, miner's", cost: 3gp }
-- { name: "Pitcher, clay", cost: 2cp }
-- { name: "Piton", cost: 1sp }
-- { name: "Pole, 2m", cost: 2sp }
-- { name: "Pot, iron", cost: 5sp }
-- { name: "Pouch, belt", cost: 1gp }
-- { name: "Ram, portable", cost: 10gp }
-- { name: "Rations, 1 day trail", cost: 5sp }
-- { name: "Rations, 1 day regular", cost: 3sp }
-- { name: "Rope, 15m hemp", cost: 1gp }
-- { name: "Rope, 15m silk", cost: 10gp }
-- { name: "Sack", cost: 1sp }
-- { name: "Sealing Wax", cost: 1gp }
-- { name: "Sewing Needle", cost: 5sp }
-- { name: "Signal Whistle", cost: 8sp }
-- { name: "Signet Ring", cost: 5gp }
-- { name: "Sledge", cost: 1gp }
-- { name: "Soap (.25 kg)", cost: 3sp }
-- { name: "Spade or Shovel", cost: 2gp }
-- { name: "Spell Component Pouch", cost: 5gp }
-- { name: "Notebook, 100 pages", cost: 15gp }
-- { name: "Notebook, 50 pages", cost: 10gp }
-- { name: "Spyglass", cost: 100gp }
-- { name: "Tent", cost: 10gp }
-- { name: "Thieves' Tools", cost: 30gp }
-- { name: "Torch", cost: 1cp }
-- { name: "Water skin", cost: 1gp }
-- { name: "Whetstone", cost: 2cp }
+- { name: "1 silver piece", cost: 10 }
+- { name: "1 gold piece", cost: 100 }
+- { name: "1 platinum piece", cost: 1000 }
+- { name: "Acid, flask", cost: 100 }
+- { name: "Antidote, generic", cost: 500 }
+- { name: "Artisan/craftman's Tools", cost: 100 }
+- { name: "Backpack", cost: 20 }
+- { name: "Barrel", cost: 25 }
+- { name: "Basket", cost: 10 }
+- { name: "Bedroll", cost: 2 }
+- { name: "Bell", cost: 3 }
+- { name: "Blanket, winter", cost: 5 }
+- { name: "Block and Tackle", cost: 50 }
+- { name: "Bottle, wine", cost: 20 }
+- { name: "Bucket", cost: 5 }
+- { name: "Caltrops", cost: 10 }
+- { name: "Candle", cost: 1 }
+- { name: "Canvas, 1 sq meter", cost: 1 }
+- { name: "Case, map or scroll", cost: 10 }
+- { name: "Chain, 1 meter", cost: 10 }
+- { name: "Chalk, 5 pieces", cost: 1 }
+- { name: "Chest", cost: 50 }
+- { name: "Crowbar", cost: 20 }
+- { name: "Disguise Kit", cost: 200 }
+- { name: "Firewood, 1 day", cost: 1 }
+- { name: "Fishing tools, rod, hooks, tackle, net", cost: 50 }
+- { name: "Flask", cost: 1 }
+- { name: "Flint and Steel", cost: 10 }
+- { name: "Grappling Hook", cost: 10 }
+- { name: "Hammer", cost: 5 }
+- { name: "Healer's Kit", cost: 50 }
+- { name: "Hourglass", cost: 25 }
+- { name: "Ink or dye, small vial", cost: 80 }
+- { name: "Ink pen / quill", cost: 1 }
+- { name: "Ladder, 2m", cost: 4 }
+- { name: "Lamp, common", cost: 1 }
+- { name: "Lantern, bull's eye", cost: 120 }
+- { name: "Lantern, hooded", cost: 70 }
+- { name: "Lock, average", cost: 40 }
+- { name: "Lock, good", cost: 800 }
+- { name: "Lock, simple", cost: 200 }
+- { name: "Magnifying Glass", cost: 900 }
+- { name: "Manacles", cost: 150 }
+- { name: "Mirror, small bronze", cost: 100 }
+- { name: "Mug/Tankard/Jug/jar", cost: 2 }
+- { name: "Musical Instrument", cost: 100 }
+- { name: "Notebook, 100 pages", cost: 150 }
+- { name: "Notebook, 50 pages", cost: 100 }
+- { name: "Oil, 1 litre, without container", cost: 2 }
+- { name: "Paper, single sheet", cost: 4 }
+- { name: "Parchment, single sheet", cost: 2 }
+- { name: "Pick, miner's", cost: 30 }
+- { name: "Piton", cost: 1 }
+- { name: "Pole, 2m", cost: 2 }
+- { name: "Pot, iron", cost: 5 }
+- { name: "Pouch, belt", cost: 10 }
+- { name: "Ram, portable", cost: 100 }
+- { name: "Rations, 1 day regular", cost: 3 }
+- { name: "Rations, 1 day trail", cost: 5 }
+- { name: "Rope, 15m hemp", cost: 10 }
+- { name: "Rope, 15m silk", cost: 100 }
+- { name: "Sack", cost: 1 }
+- { name: "Sealing Wax", cost: 10 }
+- { name: "Sewing Needle", cost: 5 }
+- { name: "Signal Whistle", cost: 8 }
+- { name: "Signet Ring", cost: 50 }
+- { name: "Sledge", cost: 10 }
+- { name: "Soap, 1 piece", cost: 2 }
+- { name: "Spade or Shovel", cost: 20 }
+- { name: "Spell Component Pouch", cost: 50 }
+- { name: "Spyglass", cost: 1000 }
+- { name: "Tent", cost: 100 }
+- { name: "Thieves' Tools", cost: 300 }
+- { name: "Torch", cost: 1 }
+- { name: "Water skin", cost: 10 }
+- { name: "Whetstone", cost: 2 }

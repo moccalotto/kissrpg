@@ -169,3 +169,10 @@ strong, .nowrap {
 .center {
     text-align: center;
 }
+
+.page-break {
+    display: none;
+}
+@media all {
+    .page-break	{ display: none; }
+}

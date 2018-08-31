@@ -3,8 +3,10 @@ title: KISS RPG
 layout: post
 ---
 
-Kiss is a set of simple and all-purpose tabletop role playing game rules meant for all types of campaigns,
-however the resources given in this document are designed for the classic medieval fantasy setting.
+Kiss is a set of simple and all-purpose tabletop role playing game rules. 
+Even though this document is focussed on the classic medieval fantasy setting, these
+rules are highly adaptable for most campaign types.
+
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 You are free to share and adapt this material for any purpose, including commercially, 
 as long as you give attribution.
@@ -15,14 +17,16 @@ Dice and Tests
 To see if something succeeds, we roll a d10 (called the base die) against a given target number.
 This is called a test. If you are particularly skilled at doing something,
 you also add another dice (called a skill dice).
-So for instance, if you have the melee skill at the journeyman level, you roll d10 + d6 when attacking someone in melee combat.
+So for instance, if you have the melee skill at the journeyman level,
+you roll d10 + d6 when attacking someone in melee combat.
 The target number would be the targets Physical Defense rating.
 If, on the other hand you are not skilled in melee at all, you would only roll your d10 against the same target number.
 
 **Base Die**:
 When you roll a 10 on your base die, you may roll it again and add the result.
 You can do this as long as you keep rolling 10s.
-If your base die has been modified, this rule still applies as long as you roll the highest possible number on the die.
+If your base die has been modified (for instance, the base die is reduced as a consequence of damage and stress),
+this rule still applies as long as you roll the highest possible number on the die.
 This rule only applies to the base die.
 
 > Re-rolling the base die is intended to introduce some luck into the game such that even a layperson
@@ -31,7 +35,8 @@ This rule only applies to the base die.
 **Hero Die**:
 A sufficiently advanced and skilled character is usually better at everything they do.
 As such they may add a hero die to all rolls.
-So for instance, if a character has a d4 hero die, and has the melee skill at the journeyman level, she may roll d10 + d4 + d6 when performing melee attacks.
+So for instance, if a character has a d4 hero die, and has the melee skill at the journeyman level,
+she may roll d10 + d4 + d6 when performing melee attacks.
 
 **Karma Points**:
 Whenever your character fails a meaningful roll (i.e.  one that actually affects the character, party or plot),
@@ -55,13 +60,12 @@ New characters have two advantages and one disadvantage.
 Consult the lists below for inspiration and make up your own to suit your campaign and style of play.
 
 > By utilizing advantages and disadvantages, we eliminate the traditional stat-juggling, race-selection,
-> and subsequent tweaking via feats, subraces, etc.
+> and subsequent tweaking via feats, subraces, backgrounds, etc.
 > If you want more powerful players, you could use three advantages and one or two disadvantages.
 
 
 
 ### Advantages
-
 
 {% assign advantages = site.data.advantages | sort: 'name' %}
 
@@ -96,8 +100,11 @@ Advanced   (d8),
 Expert     (d10), and
 Master     (d12)
 
-A character starts with 3 skills at the novice level, 2 skills at the Journeyman level, and 1 skill at the advanced level,
-all other skills are untrained.
+> **Example**: A character who is a Journeyman in the Melee skill will roll d10 + d6
+> whenever she makes a melee attack (provided her base die is d10).
+
+A character starts with 3 skills at the novice level, 2 skills at the Journeyman level,
+and 1 skill at the advanced level, all other skills are untrained.
 
 {% assign skills = site.data.skills | sort: 'name' %}
 {% for item in skills %}
@@ -108,11 +115,39 @@ all other skills are untrained.
 {% endif %}
 {% endfor %}
 
+{:.page-break}
+<br>
+
 Equipment
 =========
 
-{% assign goods = site.data.goods | sort: 'name' %}
-{% for item in goods %}
+Players get 1000 copper pieces with which to purchase their starting equipment.
+Characters begin play with 100 copper pieces.
+
+**Load Points**:
+Items have Load Points that represent how difficult they are to lug around.
+100 coins take up one load point.
+
+**Carrying Capacity**: A character can carry 10 load points. Certain advantages, spells, and items
+may increase or reduce a character's carrying capacity.
+
+### Armors
+{% assign armors = site.data.armors %}
+
+| Armor | Cost | Stress Threshold | Defense |
+|:------|:----:|:----------------:|:-------:|
+{%- for item in armors %}
+**{{ item.name}}** | {{ item.cost }} | {{ item.stressThreshold }} | {{ item.defense }} |
+{%- endfor %}
+
+
+### Goods
+
+{% assign goods = site.data.goods %}
+
+| Item | Cost |
+|:-----|:----:|
+{%- for item in goods %}
  **{{ item.name}}** | {{ item.cost }}
 {%- endfor %}
 
@@ -123,7 +158,8 @@ Playing the game
 Stress
 ------
 When a character is wounded or receives some other kind of stress, they receive Stress Points.
-Once a character accumulates 10 Stress Points they receive a Consequence and reset their stress-counter.
+Once a character accumulates 10 Stress Points (this is called the **Stress Threshold**),
+they receive a Consequence and reset their stress-counter.
 Stress points do not carry over.
 > **Example**: If a character with 8 stress points receives additional 5 stress points from a single wound,
 > they get a consequence, but the stress counter is still reset to zero.
@@ -132,7 +168,7 @@ Stress points do not carry over.
 Note that certain special types of attacks allow damage to be carried over.
 Such attacks are called vorpal attacks.
 
-> Stress and consequences is a way of ensuring that characters do not get one-shot-killed.
+> **Note**: Stress and consequences is a way of ensuring that characters do not get one-shot-killed.
 > Under normal circumstances, it would require a number of hits to kill a character.
 > Vorpal attacks ensure that certain rare kinds of attacks can still kill a character
 > in one go.
@@ -145,6 +181,13 @@ Such attacks are called vorpal attacks.
 | 3                 | Base die is 3 steps below nominal    (usually d4).    |
 | 4                 | Unconsciousness.                                      |
 | 6                 | Death.                                                |
+
+### Stress Threshold
+The stress threshold is the number of points of damage/stress the character 
+can suffer before suffering a consequence. By default this number is 10.
+Some monsters or NPCs may have a higher or lower number.
+Certain effects (magical spells, items, buffs, debuffs, disease, etc.) can increase or reduce this number.
+The character can also increase this number when she advances.
 
 Healing and Recovery
 --------------------
@@ -165,10 +208,10 @@ when waking up.
 
 A character may also receive magical healing.
 
-> If you want a more "deadly" campaign, you can create a rule that
-> disallows more than two (or even one) healings per day. I.e.
-> No matter how a character is healed, no more than two consequences
-> can be removed from that character per day (or even session).
+> **Option**: If you want a more "deadly" campaign, you can rule that,
+> no matter how a character is healed (magical healing, resting, or mundane healing),
+> no more than two (or even one) consequences can be removed from
+> that character per day (or even per session).
 
 Combat
 ------
@@ -204,3 +247,8 @@ A character cannot use a missile weapon or cast a ranged spell if engaged in mel
 
 Advancement
 -----------
+
+* Levels?
+* XP per gold?
+* Milestone?
+* Fame / Legend?
