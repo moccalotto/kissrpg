@@ -80,6 +80,17 @@
         text-transform: uppercase;
     }
 
+    a {
+        color: #00;
+        text-decoration:none;
+        font: inherit;
+    }
+    a:visited {
+        font: inherit;
+        color: #00;
+        text-decoration:none;
+    }
+
     .site-header, .site-footer {
         display: none;
     }
@@ -91,4 +102,6 @@
     .page-break {
         display: block; page-break-before: always;
     }
+
+
 }
