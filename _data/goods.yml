@@ -1,6 +1,6 @@
-- { name: "1 silver piece", cost: 10 }
 - { name: "1 gold piece", cost: 100 }
 - { name: "1 platinum piece", cost: 1000 }
+- { name: "1 silver piece", cost: 10 }
 - { name: "Acid, flask", cost: 100 }
 - { name: "Antidote, generic", cost: 500 }
 - { name: "Artisan/craftman's Tools", cost: 100 }
@@ -15,7 +15,7 @@
 - { name: "Bucket", cost: 5 }
 - { name: "Caltrops", cost: 10 }
 - { name: "Candle", cost: 1 }
-- { name: "Canvas, 1 sq meter", cost: 1 }
+- { name: "Canvas, 1 sq. meter", cost: 1 }
 - { name: "Case, map or scroll", cost: 10 }
 - { name: "Chain, 1 meter", cost: 10 }
 - { name: "Chalk, 5 pieces", cost: 1 }

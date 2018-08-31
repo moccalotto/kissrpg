@@ -132,12 +132,13 @@ Items have Load Points that represent how difficult they are to lug around.
 may increase or reduce a character's carrying capacity.
 
 ### Armors
+
 {% assign armors = site.data.armors %}
 
-| Armor | Cost | Stress Threshold | Defense |
-|:------|:----:|:----------------:|:-------:|
+| Armor | Cost | Load | Defense | Defense |
+|:------|:----:|:----:|:-------:|:-------:|
 {%- for item in armors %}
-**{{ item.name}}** | {{ item.cost }} | {{ item.stressThreshold }} | {{ item.defense }} |
+**{{ item.name}}** | {{ item.cost }} | {{ item.loadPoints }} | {{ item.stressThreshold }} | {{ item.defense }} |
 {%- endfor %}
 
 

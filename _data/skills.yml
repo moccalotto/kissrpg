@@ -1,18 +1,20 @@
 - name: Melee
-  description: Attack with melee weapons
+  description: Attack with melee weapons.
+
 - name: Ranged Combat
   description: Attack with ranged- and thrown weapons.
+
 - name: Sorcery
   description: Cast Sorcery spells. You must have the *Sorcerer* advantage to learn this skill.
+
 - name: Witchcraft
   description: Cast Witchcraft spells. You must have the *Witch* advantage to learn this skill.
-
 
 - name: Acrobatics
   description: Climb, jump, tumble and stunts.
 
 - name: Appraisal
-  description:
+  description: |
     Estimate price and authenticity of artwork,
     gems, coins, weapons, armor, buildings, etc.
 
@@ -36,8 +38,7 @@
   description: Travel routes, local area knowledge, imports/exports, local prices, local laws.
 
 - name: Healing
-  description: |
-    First Aid, identify diseases and poisons.
+  description: First Aid, identify diseases and poisons.
 
 - name: History
   description: Local lore, ancient lore. Knowledge of the old gods, of ancient cultures, races heroes and items.
@@ -56,3 +57,9 @@
 
 - name: Thievery
   description: Pick locks, slight of hand.
+
+- name: Insight
+  description: Gain insight into the motivations and feelings of another person.
+
+- name: Analysis
+  description: Research or investigate an area, item, situation, etc.

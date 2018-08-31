@@ -2,53 +2,76 @@
   cost: 0
   defense: 9
   stressThreshold: 10
+  loadPoints: 0
 
 - name: Leather
   cost:  100
   defense: 9
   stressThreshold: 12
-
-- name: Hardened Leather
-  cost:  250
-  defense: 9
-  stressThreshold: 13
+  loadPoints: 1
 
 - name: Hide Armor
   cost:  100
   defense: 10
   stressThreshold: 12
+  loadPoints: 2
 
-- name: Chain Shirt
-  cost:  1000
-  defense: 10
-  stressThreshold: 14
+- name: Hardened Leather
+  cost:  250
+  defense: 9
+  stressThreshold: 13
+  loadPoints: 1
 
 - name: Scale Mail
   cost:  750
   defense: 10
   stressThreshold: 13
+  loadPoints: 3
+
+- name: Chain Shirt
+  cost:  1000
+  defense: 10
+  stressThreshold: 14
+  loadPoints: 2
 
 - name: Chain Mail
   cost:  1500
   defense: 11
   stressThreshold: 14
+  loadPoints: 3
 
 - name: Breastplate
   cost:  2000
   defense: 12
   stressThreshold: 14
+  loadPoints: 3
 
 - name: Banded Mail
   cost:  2500
   defense: 12
   stressThreshold: 15
+  loadPoints: 4
 
 - name: Half Plate
   cost:  5000
   defense: 13
   stressThreshold: 15
+  loadPoints: 4
 
 - name: Full Plate
   cost:  10000
   defense: 14
   stressThreshold: 15
+  loadPoints: 5
+
+- name: Shield
+  cost:  50
+  defense: +1
+  stressThreshold: ±0
+  loadPoints: 1
+
+- name: Helment
+  cost:  50
+  defense: ±0
+  stressThreshold: +1
+  loadPoints: 1
