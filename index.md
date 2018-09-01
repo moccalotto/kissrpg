@@ -18,7 +18,7 @@ Dice and Tests
 To see if something succeeds, we roll a d10 (called the base die) against a given target number.
 This is called a test. If you are particularly skilled at doing something,
 you also add another dice (called a skill dice).
-So for instance, if you have the melee skill at the journeyman level,
+So for instance, if you have the melee skill at the journeyman level (which is a skill die of d6),
 you roll d10 + d6 when attacking someone in melee combat.
 The target number would be the targets Physical Defense rating.
 If, on the other hand you are not skilled in melee at all, you would only roll your d10 against the same target number.
@@ -134,10 +134,22 @@ may increase or reduce a character's carrying capacity.
 > how much stuff they can lug around with them in case these rules are used in a
 > [OSR](https://en.wikipedia.org/wiki/Old_School_Revival)-type campaign.
 
+### Weapons
+
+{% assign weapons = site.data.weapons %}
+
+{:.nobreak}
+| Weapon | Cost | Load | Hands | Damage | Range |
+|:-------|:----:|:----:|:-----:|:------:|:------|
+{%- for item in weapons %}
+**{{ item.name}}** {{ item.remark | strip_newlines }} | {{ item.cost }} | {{ item.loadPoints }} | {{ item.hands }} | {{ item.damage }} | {{ item.range }} |
+{%- endfor %}
+
 ### Armors
 
 {% assign armors = site.data.armors %}
 
+{:.nobreak}
 | Armor | Cost | Load | Defense | Defense |
 |:------|:----:|:----:|:-------:|:-------:|
 {%- for item in armors %}

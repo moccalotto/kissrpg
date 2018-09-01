@@ -46,11 +46,6 @@
         text-align: justify;
     }
 
-    .nobreak {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-
     header h1 {
         border-bottom: .05pt solid $grey-color;
         column-span: all;
@@ -81,13 +76,13 @@
     }
 
     a {
-        color: #00;
+        color: #000;
         text-decoration:none;
         font: inherit;
     }
     a:visited {
         font: inherit;
-        color: #00;
+        color: #000;
         text-decoration:none;
     }
 
@@ -104,4 +99,8 @@
     }
 
 
+    .nobreak, th, td {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
 }

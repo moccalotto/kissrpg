@@ -1,0 +1,87 @@
+- name: Unarmed
+  hands: 1
+  cost: 0
+  damage: 1
+  loadPoints: 0
+
+- name: Light Melee Weapon
+  hands: 1
+  cost: 50
+  damage: d6
+  range: 2
+  loadPoints: 1
+  remark: >
+      Baton,
+      Cudgel,
+      Dagger,
+      Sickle,
+      etc.
+
+- name: Medium Melee Weapon
+  hands: 1
+  cost: 100
+  loadPoints: 2
+  damage: d8
+  remark: >
+      Axe,
+      Flail,
+      Mace,
+      Morningstar,
+      Spear
+      Sword,
+      etc.
+
+- name: Heavy Melee Weapon
+  hands: 2
+  cost: 300
+  loadPoints: 3
+  damage: d10
+  remark: >
+      Battle Axe,
+      Halberd,
+      Spiked Chain,
+      Two-handed Sword,
+      War Hammer,
+      War Scythe,
+      etc.
+
+- name: Light Missile Weapon
+  hands: 2
+  cost: 100
+  loadPoints: 2
+  damage: d6
+  range: 6
+  remark: >
+      Shortbow,
+      Light Crossbow,
+      etc.
+
+- name: Heavy Missile Weapon
+  hands: 2
+  cost: 300
+  loadPoints: 3
+  damage: d8
+  range: 8
+  remark: >
+      Heavy Crossbow,
+      Longbow,
+      etc.
+
+- name: Sling
+  hands: 1
+  cost: 3
+  loadPoints: 1
+  damage: d4
+  range: 4
+
+- name: Hand Crossow
+  hands: 1
+  cost: 300
+  loadPoints: 1
+  damage: d5
+  range: 4
+
+- name: Amunition, 20
+  cost: 40
+  loadPoints: 1
+  remark: Arrows, Bolts, Stones, Quiver/pouch included.
