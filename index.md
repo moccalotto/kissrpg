@@ -43,7 +43,7 @@ she may roll d10 + d4 + d6 when performing melee attacks.
 Whenever your character fails a meaningful roll (i.e.  one that actually affects the character, party or plot),
 they are awarded a karma point. Your character can spend these points to create advantages later in the game.
 Most notably, your character can spend 3 karma points to reroll their base die.
-Character begin every session with exactly 2 karma points, no matter how many points they accumulated during
+Characters begin every session with exactly 2 karma points, no matter how many points they accumulated during
 the previous session.
 
 > Karma points are intended to soften the "blow" of missing a roll, as well as adding a
