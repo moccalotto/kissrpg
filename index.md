@@ -40,7 +40,7 @@ So for instance, if a character has a d4 hero die, and has the melee skill at th
 she may roll d10 + d4 + d6 when performing melee attacks.
 
 **Karma Points**:
-Whenever your character fails a meaningful roll (i.e.  one that actually affects the character, party or plot),
+Whenever your character fails a meaningful roll (i.e.  one that actually affects the character, the party and/or the plot),
 they are awarded a karma point. Your character can spend these points to create advantages later in the game.
 Most notably, your character can spend 3 karma points to reroll their base die.
 Characters begin every session with exactly 2 karma points, no matter how many points they accumulated during
@@ -51,8 +51,8 @@ the previous session.
 > We reset the karma every session to avoid power gaming through the accumulation of karma points.
 > It also allows players to refresh their karma without having to fail any checks.
 > High powered campaigns might reset the karma to 3 or 4, while more realistic campaigns might reset
-> karma to 1 or 0. Some players prefer not to reset at all, possibly imposing upper limits on how many
-> karma points a character can have.
+> karma to 1 or 0. Some player groups might prefer not to reset the karma pools at all, possibly
+> imposing upper limits on how many karma points a character can have.
 
 Traits
 ======
@@ -189,21 +189,22 @@ Such attacks are called vorpal attacks.
 > Vorpal attacks ensure that certain rare kinds of attacks can still kill a character
 > in one go.
 
-| Consequences      | Effect                                                |
-|:------------------|:------------------------------------------------------|
-| 0                 | No effects, base die is not modified (usually d10).   |
-| 1                 | Base die is one step below nominal   (usually d8).    |
-| 2                 | Base die is 2 steps below nominal    (usually d6).    |
-| 3                 | Base die is 3 steps below nominal    (usually d4).    |
-| 4                 | Unconsciousness.                                      |
-| 6                 | Death.                                                |
+| Consequences      | Effect                                              |
+|:------------------|:----------------------------------------------------|
+| 0                 | No effects, base die is nominal    (usually d10).   |
+| 1                 | Base die is one step below nominal (usually d8).    |
+| 2                 | Base die is 2 steps below nominal  (usually d6).    |
+| 3                 | Base die is 3 steps below nominal  (usually d4).    |
+| 4                 | Unconsciousness.                                    |
+| 6                 | Death.                                              |
+
 
 ### Stress Threshold
-The stress threshold is the number of points of damage/stress the character
-can suffer before suffering a consequence. By default this number is 10.
-Some monsters or NPCs may have a higher or lower number.
-Certain effects (magical spells, items, buffs, debuffs, disease, etc.) can increase or reduce this number.
-The character can also increase this number when she advances.
+The stress threshold is the number of points of damage/stress the character can
+suffer before suffering a consequence. By default this number is 10.  Some
+monsters or NPCs may have a higher or lower number.  Certain effects (magical
+spells, items, buffs, debuffs, disease, etc.) can increase or decrease this
+number.  The character can also increase this number when she advances.
 
 Healing and Recovery
 --------------------
