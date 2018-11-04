@@ -2,13 +2,13 @@
 layout: post
 ---
 
-Kiss is a set of simple and all-purpose tabletop role playing game rules. 
+Kiss is a set of simple and all-purpose tabletop role playing game rules.
 Even though this document is focussed on the classic medieval fantasy setting, these
 rules are highly adaptable for most campaign types.
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-You are free to share and adapt this material for any purpose, including commercially, 
+You are free to share and adapt this material for any purpose, including commercially,
 as long as you give attribution.
 
 
@@ -94,7 +94,7 @@ Skills
 
 There are 6 skill levels:
 
-Untrained, 
+Untrained,
 Novice     (d4),
 Journeyman (d6),
 Advanced   (d8),
@@ -179,7 +179,7 @@ they receive a Consequence and reset their stress-counter.
 Stress points do not carry over.
 > **Example**: If a character with 8 stress points receives additional 5 stress points from a single wound,
 > they get a consequence, but the stress counter is still reset to zero.
-> Thus, it would not have mattered if the character got a 2 point wound or a 15 point wound.
+> Thus, it would not have mattered if the character got a 2-point wound or a 15-point wound.
 
 Note that certain special types of attacks allow damage to be carried over.
 Such attacks are called vorpal attacks.
@@ -199,7 +199,7 @@ Such attacks are called vorpal attacks.
 | 6                 | Death.                                                |
 
 ### Stress Threshold
-The stress threshold is the number of points of damage/stress the character 
+The stress threshold is the number of points of damage/stress the character
 can suffer before suffering a consequence. By default this number is 10.
 Some monsters or NPCs may have a higher or lower number.
 Certain effects (magical spells, items, buffs, debuffs, disease, etc.) can increase or reduce this number.
