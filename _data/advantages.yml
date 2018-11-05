@@ -16,15 +16,16 @@
   description: Same effect as the tiny advantage. A character that is both tiny and nimble will be able to avoid two attacks per scene.
 
 - name: Well-equipped
-  description: You have 2000 copper pieces with which to purchase starting equipment rather than the usual 1000.
+  description: You have 2000 silver pieces with which to purchase starting equipment rather than the usual 1000.
 
 - name: Wealthy
-  description: You begin play with 500 copper pieces rather than the usual 100.
+  description: You begin play with 500 silver pieces rather than the usual 100.
 
 - name: Tough
   description: |
-      Once per scene you can avoid avoid the consequences of an attack.
-      Instead of getting a wound and resetting your stress points, your stress points are set to their maximum value, but you do not get the wound.
+      Once per scene you can avoid avoid getting a Consequence from a single attack.
+      Instead of getting a wound and resetting your stress points,
+      your stress points are set to their maximum value, but you do not get the wound.
       Doing this costs one karma point.
 
 - name: Stubborn

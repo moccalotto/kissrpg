@@ -1,6 +1,4 @@
 - { name: "1 gold piece", cost: 100 }
-- { name: "1 platinum piece", cost: 1000 }
-- { name: "1 silver piece", cost: 10 }
 - { name: "Acid, flask", cost: 100 }
 - { name: "Antidote, generic", cost: 500 }
 - { name: "Artisan/craftman's Tools", cost: 100 }

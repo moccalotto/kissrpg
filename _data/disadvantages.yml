@@ -19,8 +19,8 @@
 
 - name: Poor
   description: |
-      You only have 500 copper pieces with which to purchase starting equipment, and you begin play with only 50.
-      Normal characters have 1000 copper pieces with which to purcahse starting equipment and begin play with 100 cp.
+      You only have 500 silver pieces with which to purchase starting equipment, and you begin play with only 50.
+      Normal characters have 1000 silver pieces with which to purcahse starting equipment and begin play with 100 silver pieces.
 
 - name: Hunted
   description: |

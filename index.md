@@ -119,8 +119,8 @@ and 1 skill at the advanced level, all other skills are untrained.
 Equipment
 =========
 
-Players get 1000 copper pieces with which to purchase their starting equipment.
-Characters begin play with 100 copper pieces.
+Players get 1000 silver pieces with which to purchase their starting equipment.
+Characters begin play with 100 silver pieces.
 
 **Load Points**:
 Items have Load Points that represent how difficult they are to lug around.
@@ -173,18 +173,18 @@ Playing the game
 
 Stress
 ------
-When a character is wounded or receives some other kind of stress, they receive Stress Points.
-Once a character accumulates 10 Stress Points (this is called the **Stress Threshold**),
-they receive a Consequence and reset their stress-counter.
+Wounds, stress and strain is represented by **Stress Points**.
+If a character accumulates 10 Stress Points (this is called the **Stress Threshold**),
+they receive a **Consequence** and reset their stress-counter.
 Stress points do not carry over.
-> **Example**: If a character with 8 stress points receives additional 5 stress points from a single wound,
+> **Example**: If a character with 8 stress points receives additional 5 stress points from a single strike,
 > they get a consequence, but the stress counter is still reset to zero.
 > Thus, it would not have mattered if the character got a 2-point wound or a 15-point wound.
 
 Note that certain special types of attacks allow damage to be carried over.
 Such attacks are called vorpal attacks.
 
-> **Note**: Stress and consequences is a way of ensuring that characters do not get one-shot-killed.
+> Stress and consequences is a way of ensuring that characters do not get one-shot-killed.
 > Under normal circumstances, it would require a number of hits to kill a character.
 > Vorpal attacks ensure that certain rare kinds of attacks can still kill a character
 > in one go.
@@ -254,7 +254,7 @@ A character cannot use a missile weapon or cast a ranged spell if engaged in mel
 > area could be a small- or medium sized room, or a part of a large room.
 > Moving from one area to an adjacent area is equivalent to moving 5 squares.
 > You can make melee attacks against any opponent in your area.
-> You can make missile attacks in the adjacent areas.
+> You can make ranged attacks in the adjacent areas.
 > You can use ranged attacks and spells even if there are opponents in your area.
 >
 > If you want combat to be a bit more more slow-paced,
