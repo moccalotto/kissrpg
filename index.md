@@ -129,7 +129,7 @@ Items have Load Points that represent how difficult they are to lug around.
 **Carrying Capacity**: A character can carry 10 load points. Certain advantages, spells, and items
 may increase or reduce a character's carrying capacity.
 
-> **Note**: The load point system is completely mandatory.
+> **Note**: The load point system is completely optional.
 > It is intended to be a quick and dirty way of ensuring that PCs have restrictions on
 > how much stuff they can lug around with them in case these rules are used in a
 > [OSR](https://en.wikipedia.org/wiki/Old_School_Revival)-type campaign.
@@ -150,8 +150,8 @@ may increase or reduce a character's carrying capacity.
 {% assign armors = site.data.armors %}
 
 {:.nobreak}
-| Armor | Cost | Load | Defense | Defense |
-|:------|:----:|:----:|:-------:|:-------:|
+| Armor | Cost | Load | Stress Th. | Defense |
+|:------|:----:|:----:|:----------:|:-------:|
 {%- for item in armors %}
 **{{ item.name}}** | {{ item.cost }} | {{ item.loadPoints }} | {{ item.stressThreshold }} | {{ item.defense }} |
 {%- endfor %}
