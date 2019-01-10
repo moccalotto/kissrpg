@@ -133,7 +133,7 @@ may increase or reduce a character's carrying capacity.
 > The load point system is a quick and dirty way of ensuring that PCs
 > have restrictions on how much stuff they can lug around with them in case these rules are used in an
 > [OSR](https://en.wikipedia.org/wiki/Old_School_Revival)-type campaign.
-> You should therefore consider it completely optional (as with most other rules ;)
+> You should therefore consider it completely optional (as with most other rules ;).
 
 ### Weapons
 
@@ -151,8 +151,13 @@ may increase or reduce a character's carrying capacity.
 {% assign armors = site.data.armors %}
 
 {:.nobreak}
+<<<<<<< HEAD
 | Armor | Cost | Load | Stress Threshold | Defense |
 |:------|:----:|:----:|:----------------:|:-------:|
+=======
+| Armor | Cost | Load | Stress Th. | Defense |
+|:------|:----:|:----:|:----------:|:-------:|
+>>>>>>> 1d938f14adaade8b846146d96702f2e98be5d9c6
 {%- for item in armors %}
 **{{ item.name}}** | {{ item.cost }} | {{ item.loadPoints }} | {{ item.stressThreshold }} | {{ item.defense }} |
 {%- endfor %}
