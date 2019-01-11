@@ -151,13 +151,8 @@ may increase or reduce a character's carrying capacity.
 {% assign armors = site.data.armors %}
 
 {:.nobreak}
-<<<<<<< HEAD
-| Armor | Cost | Load | Stress Threshold | Defense |
-|:------|:----:|:----:|:----------------:|:-------:|
-=======
 | Armor | Cost | Load | Stress Th. | Defense |
 |:------|:----:|:----:|:----------:|:-------:|
->>>>>>> 1d938f14adaade8b846146d96702f2e98be5d9c6
 {%- for item in armors %}
 **{{ item.name}}** | {{ item.cost }} | {{ item.loadPoints }} | {{ item.stressThreshold }} | {{ item.defense }} |
 {%- endfor %}
@@ -213,7 +208,7 @@ Such attacks are called vorpal attacks.
 ### Stress Threshold
 The stress threshold is the number of points of damage/stress the character can suffer before suffering a consequence.
 By default this number is 10.  Some monsters or NPCs may have a higher or lower number.
-Certain effects (magical spells, items, buffs, debuffs, disease, etc.) can increase or decrease this number. 
+Certain effects (armors, spells, disease, etc.) can increase or decrease this number.
 The character can also increase this number when she advances.
 
 Healing and Recovery
@@ -230,8 +225,8 @@ and remove one consequence.
 A character who is trained in the *healing* skill can remove one consequence from a
 willing subject. This takes about half an hour and requires a successful healing(10) test.
 
-A character who receives 8 hours of uninterrupted rest in a safe haven can remove one consequence
-when waking up.
+A character who receives 8 hours of uninterrupted rest in a safe haven can
+remove one consequence when waking up.
 
 A character may also receive magical healing.
 
@@ -254,7 +249,7 @@ An action can be:
 - Move 5 more squares.
 - Attack a target within range.
 - Cast a spell.
-- Spend one karma point and remove (base die) stress points.
+- Second Wind: spend one karma point and remove (base die) stress points.
 - Drink a potion.
 - Etc.
 
