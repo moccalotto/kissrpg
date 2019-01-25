@@ -216,6 +216,7 @@ Healing and Recovery
 
 During combat, a character can take a *second wind* action that removes (base die) stress points.
 This costs one karma point.
+> **Note**: The second wind action does not remove consequences or reduce the stress counter below zero.
 
 If resting for five minutes, a character can reset their stress counter to 0.
 
@@ -233,7 +234,7 @@ A character may also receive magical healing.
 > **Option**: If you want a more "deadly" campaign, you can rule that,
 > no matter how a character is healed (magical healing, resting, or mundane healing),
 > no more than two (or even one) consequences can be removed from
-> that character per day (or even per session).
+> that character per day or session.
 
 Combat
 ------
