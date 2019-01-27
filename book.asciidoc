@@ -1,5 +1,6 @@
 = KISS RPG
 :sectnums:
+:checkedbox: pass:normal[{startsb}&#10004;{endsb}]
 
 Kiss is a set of simple and all-purpose tabletop role playing game rules.  Even
 though this document is focussed on the classic medieval fantasy setting, these
@@ -24,17 +25,22 @@ stress), this rule still applies as long as you roll the highest possible
 number on the die. Adding rerolls like this is called an _open-ended die_ or
 exploding die.footnote:[Exploding Dice: https://anydice.com/articles/exploding-dice/]
 
+NOTE: It is not just the base die that can be open ended. Certain traits,
+powerups, abilities, equipment and karma uses can make dice open ended. If you
+see a die notation with a `+` at the end of it, it means that the die is
+open-ended.  For instance, `d6` just means you roll a d6, but `d6+` means you
+roll an open- ended d6.
+
 Skill Die::
 When a hero is particularly good at doing a specific thing (fighting, swimming,
 magic, etc.) she may add a skill die to her roll when she performs those
-actions. This is referred to as a skill test. The skill die is not open-ended.
+actions. This is referred to as a skill test. Unless otherwise specified, the
+skill die is not open-ended.
 
 Hero Die::
-A sufficiently advanced and skilled character is usually better at everything
-she does. As such she may add a hero die to all rolls. So for instance, if a
-character has a d4 hero die, and has the melee skill at the journeyman level,
-she may roll d10 + d4 + d6 when performing melee attacks. The hero die is not
-open-ended.
+When a a hero has become sufficiently advanced and experienced, she gains the
+ability to add a hero die to certain rolls. This number of sides on the hero
+die depends on how experienced the hero is.
 
 
 == Karma
@@ -46,13 +52,10 @@ If you fail a meaningful roll (i.e. one that actually affects you, the party
 and/or the plot), you are awarded a karma point. There are many ways to spend
 these points. Some of them are described below:
 
-[TIP]
-====
-High powered campaigns might reset the karma to 3 or 4, while more realistic
-campaigns might reset karma to 1 or 0. Some player groups might prefer not to
-reset the karma pools at all, possibly imposing upper limits on how many
-karma points a character can have.
-====
+TIP: High powered campaigns might reset the karma to 3 or 4, while more
+realistic campaigns might reset karma to 1 or 0. Some player groups might
+prefer not to reset the karma pools at all, possibly imposing upper limits on
+how many karma points a character can have.
 
 Exploding roll::
 At the cost of 1 karma, before you roll any dice, you can declare that you want
@@ -64,6 +67,11 @@ Make a roll _easier_::
 At the cost of 2 karma, before you roll any dice, you can declare that you
 want to make a test _easier_, meaning that you get roll the entire test twice,
 and choose the best outcome. This must be declared _before_ the roll is made.
+
+Make a roll _heroic_::
+If you have a hero die, you can spend 1 karma point to add that hero die to
+any roll you want. You must declare that you are making a heroic roll _before_
+you roll any dice.
 
 Redo a failed test::
 At the cost of 3 karma, you can declare that you want to reroll a failed test.
@@ -83,11 +91,8 @@ The first game-mechanical thing to do when creating a new character is to
 describe her via traits. You must choose 4 positive traits and 2 negative
 traits.
 
-[NOTE]
-====
-In KISS, concepts like attributes, races, background, heritages, etc. have
-been replaced by traits.
-====
+NOTE: In KISS, concepts like attributes, races, background, heritages, etc.
+have been replaced by traits.
 
 
 === Positive traits
@@ -251,19 +256,45 @@ have 6 powerup slots (meaning that you can choose up to 6 powerups). You get 10
 experience points with which to purchase powerups. Each powerup has a
 powerpoint cost.
 
-[NOTE]
-====
-In KISS, concepts like money, gear, special items, contacts, special abilities,
-spells, etc. are all considered powerups. When you gain experience from
-adventuring, you can purchase additional powerups, or increase the oomph of the
-ones you already have.
-====
+NOTE: In KISS, concepts like money, gear, special items, contacts, special
+abilities, spells, etc. are all considered powerups. When you gain experience
+from adventuring, you can purchase additional powerups, or increase the oomph
+of the ones you already have.
 
 
 Lucky (XP cost: 1, 2, or 3)::
 Your karma reset value is 3, 4, or 4.
 
 
-Ship Owner (XP cost: 4, 5, or 6):: 
+Ship Owner (XP cost: 4, 5, or 6)::
 You own a spaceship. The amount of XP you pay for this powerup determines the
 size of the ship.
+
+Hero Die (XP cost: 10, 14, 20, 28, 38, or 50)::
+Gain a d4, d6, d8, d10, or d12 hero die.
+
+
+== Gear
+
+[%header, cols="4,4*^.^"]
+|===
+| Weapon                        | Load  | Close | Near  | Far
+
+| Unarmed Combat                | 0     | 1     | -     | -
+| Knuckledusters                | 1     | d4    | -     | -
+| Knives                        | 1     | d4    | d4    | -
+| Staves, clubs, batons         | 2     | d6    | -     | -
+| Javelins                      | 1     | d4    | d6    | -
+| Light swords, axes, spears    | 3     | d8    | -     | -
+| Heavy swords, axes, polearms  | 4     | d10   | -     | -
+| Short bows, light crossbows   | 2     | -     | d6    | d4
+| Long bows, heavy crossbows    | 4     | -     | d10   | d8
+| Slings, hand crossbows        | 0     | -     | d4    | -
+| Musket pistols                | 1     | d6+   | d4    | -
+| Scatterguns                   | 3     | d10+  | d4    | -
+| Musket Rifles                 | 4     | 1d4   | d10+  | d6+
+
+|===
+
+NOTE: The `+` denotes that the die is open-ended.
+
