@@ -43,7 +43,7 @@ _karma reset_).
 If you fail a meaningful roll (i.e. one that actually affects you, the party and/or the plot), you are awarded a karma point.
 There are many ways to spend these points. Some of them are described below:
 
-> *Options*: High powered campaigns might reset the karma to 3 or 4, while more realistic
+> High powered campaigns might reset the karma to 3 or 4, while more realistic
 > campaigns might reset karma to 1 or 0. Some player groups might prefer not to
 > reset the karma pools at all, possibly imposing upper limits on how many
 > karma points a character can have.
@@ -74,8 +74,11 @@ at the end of a session, you can still only convert 10 of them to XP.
 == Traits
 
 The first game-mechanical thing to do when creating a new character is to
-describe her via traits. You must choose 4 positive traits and 2 negative 
+describe her via traits. You must choose 4 positive traits and 2 negative
 traits.
+
+> In KISS, concepts like attributes, races, background, heritages, etc. have
+> been replaced by traits.
 
 
 === Positive traits
@@ -85,6 +88,9 @@ Once per session, at the cost of 1 karma, you can declare that you have a vague
 connection with someone (maybe you met them, briefly worked for them, etc.).
 Additionally, when engaged in social challenges where you can invoke a common
 mutual acquaintance, all your rolls are open-ended.
+
+Captain::
+You have access to the »Ship Owner« powerup.
 
 Darkvision::
 You can see in complete darkness, but only in shades of gray.
@@ -116,6 +122,9 @@ daylight.
 Nimble::
 Same effect as the »tiny« trait. A character that is both tiny and nimble will
 be able to avoid two attacks per scene, provided you have karma to spend.
+
+Overpowered::
+You have 8 powerup slots instead of 6.
 
 Polyglot::
 When you hear or read a language that was not hitherto known by you, you can
@@ -216,8 +225,28 @@ Uncouth::
 Once per scene, at the cost of 3 karma points, the GM can rule that you failed
 a given social challenge due to your social ineptitude.
 
+Underpowered::
+You have 4 powerup slots instead of 6.
+
 Weak::
 You have trouble with forced marches, etc. At the cost of 3 karma points, the
 GM can limit your ability to perform demanding physical tasks over long periods
 of time. At the cost of 2 karma points the GM can enforce your weakness by
 making you redo tests that relies heavily on endurance.
+
+
+== Powerups
+
+Having chocen traits, the second thing to do is to choose your powerups. You
+have 6 powerup slots (meaning that you can choose up to 6 powerups). You get 10
+experience points with which to purchase powerups. Each powerup has a
+powerpoint cost.
+
+
+Lucky (XP cost: 1, 2, or 3)::
+Your karma reset value is 3, 4, or 4.
+
+
+Ship Owner (XP cost: 4, 5, or 6):: 
+You own a spaceship. The amount of XP you pay for this powerup determines the
+size of the ship.
