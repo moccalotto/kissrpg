@@ -88,8 +88,8 @@ at the end of a session, you can still only convert 10 of them to XP.
 == Traits
 
 The first game-mechanical thing to do when creating a new character is to
-describe her via traits. You must choose 4 positive traits and 2 negative
-traits.
+describe her via traits. You must choose 3 positive traits and 1 negative
+trait.
 
 NOTE: In KISS, concepts like attributes, races, background, heritages, etc.
 have been replaced by traits.
@@ -277,6 +277,7 @@ Gain a d4, d6, d8, d10, or d12 hero die.
 == Gear
 
 [%header, cols="4,4*^.^"]
+.Weapons
 |===
 | Weapon                        | Load  | Close | Near  | Far
 
@@ -295,6 +296,27 @@ Gain a d4, d6, d8, d10, or d12 hero die.
 | Musket Rifles                 | 4     | 1d4   | d10+  | d6+
 
 |===
-
 NOTE: The `+` denotes that the die is open-ended.
+
+
+[%header, cols="4,3*^.^"]
+.Armors
+|===
+| Armor             | Load  | Stress    | Defense
+
+| Unarmored         | 0     | 10        | 9
+| Leather           | 1     | 11        | 9
+| Hide Armor        | 2     | 12        | 10
+| Hardened Leather  | 1     | 13        | 9
+| Scale Mail        | 3     | 13        | 10
+| Chain Shirt       | 2     | 14        | 10
+| Chain Mail        | 3     | 14        | 11
+| Breastplate       | 3     | 14        | 12
+| Banded Mail       | 4     | 15        | 12
+| Half Plate        | 4     | 15        | 13
+| Full Plate        | 5     | 15        | 14
+| Shield            | 1     | ±0        | +1
+| Helmet            | 1     | +1        | ±0
+
+|===
 
