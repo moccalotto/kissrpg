@@ -73,5 +73,5 @@
 - name: Helment
   cost:  50
   defense: ±0
-  stressThreshold: +1
+  stressThreshold: '+1'
   loadPoints: 1

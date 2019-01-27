@@ -34,7 +34,7 @@
 - name: Heavy Melee Weapon
   hands: 2
   cost: 300
-  loadPoints: 3
+  loadPoints: 4
   damage: d10
   remark: >
       Battle Axe,
@@ -59,7 +59,7 @@
 - name: Heavy Missile Weapon
   hands: 2
   cost: 300
-  loadPoints: 3
+  loadPoints: 4
   damage: d8
   range: 8
   remark: >
