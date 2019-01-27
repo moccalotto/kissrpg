@@ -77,8 +77,11 @@ The first game-mechanical thing to do when creating a new character is to
 describe her via traits. You must choose 4 positive traits and 2 negative
 traits.
 
-> In KISS, concepts like attributes, races, background, heritages, etc. have
-> been replaced by traits.
+[NOTE]
+====
+In KISS, concepts like attributes, races, background, heritages, etc. have
+been replaced by traits.
+====
 
 
 === Positive traits
@@ -242,6 +245,14 @@ have 6 powerup slots (meaning that you can choose up to 6 powerups). You get 10
 experience points with which to purchase powerups. Each powerup has a
 powerpoint cost.
 
+[NOTE]
+====
+In KISS, concepts like money, gear, special items, contacts, special abilities,
+spells, etc. are all considered powerups. When you gain experience from
+adventuring, you can purchase additional powerups, or increase the oomph of the
+ones you already have.
+====
+
 
 Lucky (XP cost: 1, 2, or 3)::
 Your karma reset value is 3, 4, or 4.
@@ -250,3 +261,6 @@ Your karma reset value is 3, 4, or 4.
 Ship Owner (XP cost: 4, 5, or 6):: 
 You own a spaceship. The amount of XP you pay for this powerup determines the
 size of the ship.
+
+[listing]
+sudo dnf install asciidoc
