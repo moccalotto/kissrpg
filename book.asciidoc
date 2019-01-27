@@ -1,0 +1,223 @@
+= KISS RPG
+
+Kiss is a set of simple and all-purpose tabletop role playing game rules.  Even
+though this document is focussed on the classic medieval fantasy setting, these
+rules are highly adaptable for most campaign types.
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+International License.footnote:[License: https://creativecommons.org/licenses/by-sa/4.0/]
+You are free to share and adapt this material for any purpose, including
+commercially, as long as you give attribution.
+
+== Dice and Tests
+
+To see if something succeeds, you roll a d10 (called the _base die_) against a
+given target number, usually set by the GM. If you equal to or higher than the
+target number, you succeed.
+
+Base Die::
+When you roll a 10 on your base die, you may roll it again and add the result.
+You can do this as long as you keep rolling 10s. If your base die has been
+modified (for instance, the base die is reduced as a consequence of damage and
+stress), this rule still applies as long as you roll the highest possible
+number on the die. Adding rerolls like this is called an _open-ended die_ or
+exploding die.footnote:[Exploding Dice: https://anydice.com/articles/exploding-dice/]
+
+Skill Die::
+When a hero is particularly good at doing a specific thing (fighting, swimming,
+magic, etc.) she may add a skill die to her roll when she performs those
+actions. This is referred to as a skill test. The skill die is not open-ended.
+
+Hero Die::
+A sufficiently advanced and skilled character is usually better at everything
+she does. As such she may add a hero die to all rolls. So for instance, if a
+character has a d4 hero die, and has the melee skill at the journeyman level,
+she may roll d10 + d4 + d6 when performing melee attacks. The hero die is not open-ended.
+
+
+== Karma
+
+Character begins every session with exactly 2 karma points (this is called the
+_karma reset_).
+
+If you fail a meaningful roll (i.e. one that actually affects you, the party and/or the plot), you are awarded a karma point.
+There are many ways to spend these points. Some of them are described below:
+
+> *Options*: High powered campaigns might reset the karma to 3 or 4, while more realistic
+> campaigns might reset karma to 1 or 0. Some player groups might prefer not to
+> reset the karma pools at all, possibly imposing upper limits on how many
+> karma points a character can have.
+
+Exploding roll::
+At the cost of 1 karma, before you roll any dice, you can declare that you want
+to make an exploding roll, meaning that all the dice rolled (base, skill, and
+hero) are made open-ended. This can also be applied to damage tests and other
+tests that are not normally open ended.
+
+Make a roll _easier_::
+At the cost of 2 karma, before you roll any dice, you can declare that you
+want to make a test _easier_, meaning that you get roll the entire test twice,
+and choose the best outcome. This must be declared _before_ the roll is made.
+
+Redo a failed test::
+At the cost of 3 karma, you can declare that you want to reroll a failed test.
+This is be done _after_ the dice are rolled, but before the GM tells you
+whether the test succeeded or not.
+
+Learn from your failures::
+At the end of a session, you can convert 10 karma points into 1 experience point.
+This can only be done once per session. So even if you somehow have 100 karma
+at the end of a session, you can still only convert 10 of them to XP.
+
+
+
+== Traits
+
+The first game-mechanical thing to do when creating a new character is to
+describe her via traits. You must choose 4 positive traits and 2 negative 
+traits.
+
+
+=== Positive traits
+
+Connected::
+Once per session, at the cost of 1 karma, you can declare that you have a vague
+connection with someone (maybe you met them, briefly worked for them, etc.).
+Additionally, when engaged in social challenges where you can invoke a common
+mutual acquaintance, all your rolls are open-ended.
+
+Darkvision::
+You can see in complete darkness, but only in shades of gray.
+
+Famous::
+Once per session, at the cost of 1 karma, you can declare that a given person
+knows about you or your family and sees you in a positive light. This makes
+all your subsequent social challenges against that person open-ended.
+
+Sprinter::
+During combat you can move extra squares at the cost of 1 karma point per
+square.
+
+Unencumbered::
+You can carry 15 load points worth of gear instead of the usual 10.
+
+Magic User::
+You can cast magical spells.
+
+Mnemonist::
+You can accurately recall anything you have ever seen or heard at the cost of 2
+karma point. It only costs you a single karma point to redo tests in challenges
+that rely purely on your memory and experience.
+
+Nightvision::
+You can see as well in dim light such as starlight or moonlight as if it were
+daylight.
+
+Nimble::
+Same effect as the »tiny« trait. A character that is both tiny and nimble will
+be able to avoid two attacks per scene, provided you have karma to spend.
+
+Polyglot::
+When you hear or read a language that was not hitherto known by you, you can
+declare that you are familiar with it, enabling you to read, write and speak
+it. This can be done once per session and it costs 3 karma points.
+
+Socialite::
+Once per session you can overcome a challenge of trust or etiquette by invoking
+your background and heritage. Doing so costs one karma point.
+
+Street Smart::
+It only costs you a single karma point to redo tests during challenges that
+involve shady city connections, finding your way in cities, or evaluating black
+market prices.
+
+Strong::
+Once per scene you may redo tests that relies heavily and primarily on your
+bodily strength. Doing so costs 1 karma.
+
+Stubborn::
+When you have the “dying” condition, you are awake and conscious. You can take
+actions like any normal character, but doing so costs a karma point.
+
+Tiny::
+Once per scene you can completely avoid an attack. If you declare your intent
+to avoid the attack before the attacker rolls their dice it costs 2 karma
+point. If you avoid the attack after the attacker rolls their dice it costs 3
+karma points.
+
+Tough::
+Once per scene you can avoid avoid getting a Consequence from a single attack.
+Instead of getting a wound and resetting your stress points, your stress points
+are set to their maximum value, but you do not get the wound. Doing this costs
+one karma point.
+
+Wealthy::
+§§§ How does wealth work when we don't use wealth?
+
+Well-equipped::
+§§§§ More weapons, better armor.
+
+=== Negative Traits
+
+Addicted::
+You have an addiction (alcohol, drugs, sex, gambling). Once per session, at the
+cost of 3 karma points, the GM can enforce your addiction to create a conflict,
+problem or disadvantage to you or the party.
+
+Diminutive::
+The GM can make you reroll your base die in intimidation check in exchange for
+1 karma points.
+
+Favor::
+You owe a favor to a powerful person, organization, or entity. Once per
+session, at the cost of 3 karma points, the GM can invoke this debt to create a
+conflict for you or your party.
+
+Hunted::
+You are hunted, wanted, or stalked by a creature, person, organization, or
+entity. Once per session, at the cost of 3 karma points, the GM can invoke your
+stalker or their underlings and create a conflict for you or your party.
+
+Infamous::
+Once per session, at the cost of 2 karma points, the GM can rule that you failed
+a given social challenge because of your bad reputation.
+
+Infirm::
+You easily get sick. At the cost of 2 karma points the GM can make you reroll
+the base die of a check to resist disease or poison. At the cost of 3 karma
+points the GM can invoke your fragile health to create a situation that is
+hazardous to you or your party.
+
+Kleptomaniac::
+You are addicted to stealing. Once per session, at the cost of 2 karma points,
+the GM can enforce your obsession to create a potential conflict, problem or
+disadvantage to you or the party.
+
+Obsessed::
+You are obsessed with a person, place, thing or phenomenon. Once per session,
+at the cost of 3 karma points, The GM can enforce your obsession to create a
+conflict, problem or disadvantage to you or the party.
+
+Poor::
+§§§ Not much stuff.
+
+Short Legs::
+You can only move 4 squares per round instead of 5.
+
+Thickheaded::
+Once per session, at the cost of 2 karma points, the GM can enforce your
+stupidity and make you redo a relevant test.
+
+Ugly::
+Once per session, at the cost of 2 karma points, the GM can rule that you failed
+a given social challenge because of your physical appearance.
+
+Uncouth::
+Once per scene, at the cost of 3 karma points, the GM can rule that you failed
+a given social challenge due to your social ineptitude.
+
+Weak::
+You have trouble with forced marches, etc. At the cost of 3 karma points, the
+GM can limit your ability to perform demanding physical tasks over long periods
+of time. At the cost of 2 karma points the GM can enforce your weakness by
+making you redo tests that relies heavily on endurance.

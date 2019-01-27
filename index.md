@@ -116,11 +116,12 @@ and 1 skill at the advanced level, all other skills are untrained.
 {% endif %}
 {% endfor %}
 
+
 Equipment
 =========
 
-Players get 1000 silver pieces with which to purchase their starting equipment.
-Characters begin play with 100 silver pieces.
+Characters start with 1000 silver pieces worth of equipment,
+and begin play with 100 silver pieces.
 
 **Load Points**:
 Items have Load Points that represent how difficult they are to lug around.
@@ -129,10 +130,10 @@ Items have Load Points that represent how difficult they are to lug around.
 **Carrying Capacity**: A character can carry 10 load points. Certain advantages, spells, and items
 may increase or reduce a character's carrying capacity.
 
-> **Note**: The load point system is completely optional.
-> It is intended to be a quick and dirty way of ensuring that PCs have restrictions on
-> how much stuff they can lug around with them in case these rules are used in a
+> The load point system is a quick and dirty way of ensuring that PCs
+> have restrictions on how much stuff they can lug around with them in case these rules are used in an
 > [OSR](https://en.wikipedia.org/wiki/Old_School_Revival)-type campaign.
+> You should therefore consider it completely optional (as with most other rules ;).
 
 ### Weapons
 
@@ -177,12 +178,17 @@ Wounds, stress and strain is represented by **Stress Points**.
 If a character accumulates 10 Stress Points (this is called the **Stress Threshold**),
 they receive a **Consequence** and reset their stress-counter.
 Stress points do not carry over.
-> **Example**: If a character with 8 stress points receives additional 5 stress points from a single strike,
-> they get a consequence, but the stress counter is still reset to zero.
-> Thus, it would not have mattered if the character got a 2-point wound or a 15-point wound.
+
+> **Example**: If a character with 8 stress points receives additional 24 stress points
+> from a single strike, they get one consequence, and the stress counter is reset to zero.
+> Thus it would not have mattered if the character got a 2-point wound or a 1000-point wound.
 
 Note that certain special types of attacks allow damage to be carried over.
 Such attacks are called vorpal attacks.
+
+> **Example**: If a character with 8 stress points receives additional 24 stress points
+> from a single *vorpal attack*, they get 3 consequences, and the stress counter is now 2
+> (8 + 25 = 32 = 3 · consequence + 2 · stress).
 
 > Stress and consequences is a way of ensuring that characters do not get one-shot-killed.
 > Under normal circumstances, it would require a number of hits to kill a character.
@@ -200,17 +206,17 @@ Such attacks are called vorpal attacks.
 
 
 ### Stress Threshold
-The stress threshold is the number of points of damage/stress the character can
-suffer before suffering a consequence. By default this number is 10.  Some
-monsters or NPCs may have a higher or lower number.  Certain effects (magical
-spells, items, buffs, debuffs, disease, etc.) can increase or decrease this
-number.  The character can also increase this number when she advances.
+The stress threshold is the number of points of damage/stress the character can suffer before suffering a consequence.
+By default this number is 10.  Some monsters or NPCs may have a higher or lower number.
+Certain effects (armors, spells, disease, etc.) can increase or decrease this number.
+The character can also increase this number when she advances.
 
 Healing and Recovery
 --------------------
 
 During combat, a character can take a *second wind* action that removes (base die) stress points.
 This costs one karma point.
+> **Note**: The second wind action does not remove consequences or reduce the stress counter below zero.
 
 If resting for five minutes, a character can reset their stress counter to 0.
 
@@ -220,15 +226,15 @@ and remove one consequence.
 A character who is trained in the *healing* skill can remove one consequence from a
 willing subject. This takes about half an hour and requires a successful healing(10) test.
 
-A character who receives 8 hours of uninterrupted rest in a safe haven can remove one consequence
-when waking up.
+A character who receives 8 hours of uninterrupted rest in a safe haven can
+remove one consequence when waking up.
 
 A character may also receive magical healing.
 
 > **Option**: If you want a more "deadly" campaign, you can rule that,
 > no matter how a character is healed (magical healing, resting, or mundane healing),
 > no more than two (or even one) consequences can be removed from
-> that character per day (or even per session).
+> that character per day or session.
 
 Combat
 ------
@@ -244,7 +250,7 @@ An action can be:
 - Move 5 more squares.
 - Attack a target within range.
 - Cast a spell.
-- Spend one karma point and remove (base die) stress points.
+- Second Wind: spend one karma point and remove (base die) stress points.
 - Drink a potion.
 - Etc.
 

@@ -70,7 +70,7 @@
   stressThreshold: ±0
   loadPoints: 1
 
-- name: Helment
+- name: Helmet
   cost:  50
   defense: ±0
   stressThreshold: '+1'

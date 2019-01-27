@@ -1,7 +1,7 @@
 - name: Melee
   description: Attack with melee weapons.
 
-- name: Ranged Combat
+- name: Ranged
   description: Attack with ranged- and thrown weapons.
 
 - name: Sorcery
