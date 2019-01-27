@@ -1,4 +1,5 @@
 = KISS RPG
+:sectnums:
 
 Kiss is a set of simple and all-purpose tabletop role playing game rules.  Even
 though this document is focussed on the classic medieval fantasy setting, these
@@ -32,7 +33,8 @@ Hero Die::
 A sufficiently advanced and skilled character is usually better at everything
 she does. As such she may add a hero die to all rolls. So for instance, if a
 character has a d4 hero die, and has the melee skill at the journeyman level,
-she may roll d10 + d4 + d6 when performing melee attacks. The hero die is not open-ended.
+she may roll d10 + d4 + d6 when performing melee attacks. The hero die is not
+open-ended.
 
 
 == Karma
@@ -40,13 +42,17 @@ she may roll d10 + d4 + d6 when performing melee attacks. The hero die is not op
 Character begins every session with exactly 2 karma points (this is called the
 _karma reset_).
 
-If you fail a meaningful roll (i.e. one that actually affects you, the party and/or the plot), you are awarded a karma point.
-There are many ways to spend these points. Some of them are described below:
+If you fail a meaningful roll (i.e. one that actually affects you, the party
+and/or the plot), you are awarded a karma point. There are many ways to spend
+these points. Some of them are described below:
 
-> High powered campaigns might reset the karma to 3 or 4, while more realistic
-> campaigns might reset karma to 1 or 0. Some player groups might prefer not to
-> reset the karma pools at all, possibly imposing upper limits on how many
-> karma points a character can have.
+[TIP]
+====
+High powered campaigns might reset the karma to 3 or 4, while more realistic
+campaigns might reset karma to 1 or 0. Some player groups might prefer not to
+reset the karma pools at all, possibly imposing upper limits on how many
+karma points a character can have.
+====
 
 Exploding roll::
 At the cost of 1 karma, before you roll any dice, you can declare that you want
@@ -261,6 +267,3 @@ Your karma reset value is 3, 4, or 4.
 Ship Owner (XP cost: 4, 5, or 6):: 
 You own a spaceship. The amount of XP you pay for this powerup determines the
 size of the ship.
-
-[listing]
-sudo dnf install asciidoc
