@@ -6,6 +6,10 @@
 #   description: |
 #       XXXX Good at making new social connections.
 
+- name: Heavy Lifter
+  description: |
+    You can carry 15 load points worth of gear insted of the usual 10.
+
 - name: Tiny
   description: |
       Once per scene you can completely avoid an attack.  If you declare your
