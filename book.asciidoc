@@ -122,7 +122,7 @@ square.
 Unencumbered::
 You can carry 15 load points worth of gear instead of the usual 10.
 
-Magic User::
+[[magic-user]]Magic User::
 You can cast magical spells.
 
 Mnemonist::
@@ -263,7 +263,7 @@ from adventuring, you can purchase additional powerups, or increase the oomph
 of the ones you already have.
 
 
-Lucky (XP cost: 1, 2, or 3)::
+Lucky (XP cost: 2, 3, or 4)::
 Your karma reset value is 3, 4, or 4.
 
 
@@ -273,6 +273,38 @@ size of the ship.
 
 Hero Die (XP cost: 10, 14, 20, 28, 38, or 50)::
 Gain a d4, d6, d8, d10, or d12 hero die.
+
+
+
+== Skils
+
+[%header,cols="1,6"]
+.Skills
+|===
+| Skill         | Description
+| Acrobatics    | Climb, jump, tumble and stunts.
+| Analysis      | Research or investigate an area, item, situation, etc.
+| Appraisal     | Estimate price and authenticity of artwork, gems, coins, weapons, armor, buildings, etc.
+| Arcana        | Cast magical spells. You must have the *<<magic-user, Magic User>>* advantage to learn this skill.
+| Athletics     | Run, march, swim, endure physical stress.
+| [Craft]       | [craft] can be a craft, art or science such as alchemy, blacksmithing, carpentry, engineering, gambling, masonry or painting.
+| Creature Lore | Guestimate an approximation of a key knowledge such as Movement Rate, Defense Points, Hit Points, an Attribute Score, Skill Score, etc.
+| Deception     | Disguise, bluff, lie, impersonate.
+| Dodge         | §§§§§
+| Geography     | Travel routes, local area knowledge, imports/exports, local prices, local laws.
+| Healing       | First Aid, identify diseases and poisons.
+| History       | Local lore, ancient lore. Knowledge of the old gods, of ancient cultures, races heroes and items.
+| Insight       | Gain insight into the motivations and feelings of another person.
+| Melee         | Attack with melee weapons.
+| Negotiation   | Intimidation, haggling, interrogation.
+| Ranged        | Attack with ranged- and thrown weapons.
+| Reputation    | §§§§§
+| Riding        | Horses, stags, griffons.
+| Stealth       | Hide, sneak, camouflage.
+| Survival      | Hunting, gathering, direction sense.
+| Thievery      | Pick locks, slight of hand.
+| Willpower     | §§§§§
+|===
 
 
 == Gear
@@ -295,7 +327,6 @@ Gain a d4, d6, d8, d10, or d12 hero die.
 | Musket pistols                | 1     | d6+   | d4    | -
 | Scatterguns                   | 3     | d10+  | d4    | -
 | Musket Rifles                 | 4     | 1d4   | d10+  | d6+
-
 |===
 NOTE: The `+` denotes that the die is open-ended.
 
@@ -318,6 +349,4 @@ NOTE: The `+` denotes that the die is open-ended.
 | Full Plate        | 5     | 15        | 13    | -3
 | Shield            | 1     | ±0        | +1    | ± 0
 | Helmet            | 1     | +1        | ±0    | ± 0
-
 |===
-
