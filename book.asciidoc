@@ -54,15 +54,17 @@ and/or the plot), you are awarded a karma point. There are many ways to spend
 these points. Some of them are described below:
 
 TIP: High powered campaigns might reset the karma to 3 or 4, while more
-realistic campaigns might reset karma to 1 or 0. Some player groups might
-prefer not to reset the karma pools at all, possibly imposing upper limits on
-how many karma points a character can have.
+realistic campaigns might reset karma to 1 or 0. Some groups might prefer not
+to reset the karma pools at all, possibly imposing upper limits on how many
+karma points a character can have, and possibly reducing the number of
+experience points awarded to the players, forcing them to convert karma into
+XP.
 
 Exploding roll::
 At the cost of 1 karma, before you roll any dice, you can declare that you want
-to make an exploding roll, meaning that all the dice rolled (base, skill, and
-hero) are made open-ended. This can also be applied to damage tests and other
-tests that are not normally open ended.
+to make the roll _open ended_, meaning that all the dice rolled (base, skill,
+and hero) are made open-ended. This can also be applied to damage tests and
+other tests that are not normally open ended.
 
 Make a roll _easier_::
 At the cost of 2 karma, before you roll any dice, you can declare that you
@@ -175,10 +177,10 @@ are set to their maximum value, but you do not get the wound. Doing this costs
 one karma point.
 
 Wealthy::
-§§§ How does wealth work when we don't use wealth?
+§§§§ How does wealth work when we don't use wealth?
 
 Well-equipped::
-§§§§ More weapons, better armor.
+You have 10 equipment slots instead of 8.
 
 === Negative Traits
 
@@ -222,7 +224,7 @@ at the cost of 3 karma points, The GM can enforce your obsession to create a
 conflict, problem or disadvantage to you or the party.
 
 Poor::
-§§§ Not much stuff.
+§§§§ Not much stuff.
 
 Short Legs::
 You can only move 4 squares per round instead of 5.
@@ -325,9 +327,9 @@ NOTE: The `+` denotes that the die is open-ended.
 == Powerups
 
 Having chocen traits, the second thing to do is to choose your powerups. You
-have 10 powerup slots (meaning that you can choose up to 10 powerups). You get 10
-experience points with which to purchase powerups. Each powerup has a
-powerpoint cost. You can choose powerups of with a price of 3 or lower.
+have 6 powerup slots (meaning that you can choose up to 6 powerups). You get 10
+experience points with which to purchase powerups, and you can choose any powerup
+that has an XP cost of 3 or lower.
 
 NOTE: In KISS, concepts like money, gear, special items, contacts, special
 abilities, spells, etc. are all considered powerups. When you gain experience
@@ -335,11 +337,10 @@ from adventuring, you can purchase additional powerups, or increase the oomph
 of the ones you already have.
 
 
-Lucky (XP cost: 2, 3, or 4)::
+Lucky (XP cost: 2, 3, or 5)::
 Your karma reset value is 3, 4, or 4.
 
-
-Ship Owner (XP cost: 4, 5, or 6)::
+Ship Owner (XP cost: 3, 5, or 8)::
 You own a spaceship. The amount of XP you pay for this powerup determines the
 size of the ship.
 
@@ -354,7 +355,7 @@ If you loose or break this item, you do not get the XP back.
 NOTE: that the GM may "give" you an item, but you must still pay a sum of XP in order to be able to
 attune to it (use it).
 
-Spell§§§::
+Spell§§§§::
 Spells are powerups.
 Some spells cost karma to cast.
 Some spells power levels can be increased if you pay a lot of karma.
@@ -368,7 +369,7 @@ Spells can be instant, sustained, or have a fixed duration.
 Take the hit (XP cost: 1)::
 When one of your opponents attacks one of your allies, you can spend 1 karma
 and declare that the opponent attacks you instead. This only works if the
-opponent can actually attack you the same way as they intended to attack your
+opponent is able to attack you the same way as they intended to attack your
 ally.
 
 
