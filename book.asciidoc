@@ -80,9 +80,8 @@ This is be done _after_ the dice are rolled, but before the GM tells you
 whether the test succeeded or not.
 
 Learn from your failures::
-At the end of a session, you can convert 10 karma points into 1 experience point.
-This can only be done once per session. So even if you somehow have 100 karma
-at the end of a session, you can still only convert 10 of them to XP.
+You can convert 10 karma points into 1 experience point.  This can only be done
+once per session.
 
 
 
@@ -366,6 +365,11 @@ Spells can be instant, sustained, or have a fixed duration.
 * Fixed-duration spells last as long as the duration description of the spell.
   They can only be cancelled/dismissed with a "Dispell Magic" spell.
 
+Take the hit (XP cost: 1)::
+When one of your opponents attacks one of your allies, you can spend 1 karma
+and declare that the opponent attacks you instead. This only works if the
+opponent can actually attack you the same way as they intended to attack your
+ally.
 
 
 
@@ -381,4 +385,7 @@ Move Action::
 Main Action::
 * Attack.
 * Cast a spell (unless special casting time).
-* 
+
+Reaction (costs 1 karma each)::
+* Attack opponent who moves out of your melee range.
+* Cast Counterspell.
