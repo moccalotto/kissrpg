@@ -117,8 +117,8 @@ knows about you or your family and sees you in a positive light. This makes
 all your subsequent social challenges against that person open-ended.
 
 Sprinter::
-During combat you can move extra squares at the cost of 1 karma point per
-square.
+During combat you can get extra Steps at the cost of 1 karma point per
+Step.
 
 Unencumbered::
 You can carry 15 load points worth of gear instead of the usual 10.
@@ -227,7 +227,9 @@ Poor::
 §§§§ Not much stuff.
 
 Short Legs::
-You can only move 4 squares per round instead of 5.
+You only get 4 Steps per combat round instead of 5.
+When you exchange your Action for extra Steps, you only
+get 4 Steps.
 
 Thickheaded::
 Once per session, at the cost of 2 karma points, the GM can enforce your
@@ -259,18 +261,18 @@ making you redo tests that relies heavily on endurance.
 | Acrobatics    | Climb, jump, tumble and stunts.
 | Analysis      | Research or investigate an area, item, situation, etc.
 | Appraisal     | Estimate price and authenticity of artwork, gems, coins, weapons, armor, buildings, etc.
-| Arcana        | Cast magical spells. You must have the *<<magic-user, Magic User>>* advantage to learn this skill.
+| Arcana        | Cast magical spells. You must have the *<<magic-user, Magic User>>* trait to learn this skill.
 | Athletics     | Run, march, swim, endure physical stress.
 | [Craft]       | [craft] can be a craft, art or science such as alchemy, blacksmithing, carpentry, engineering, gambling, masonry or painting.
-| Creature Lore | Guestimate an approximation of a key knowledge such as Movement Rate, Defense Points, Hit Points, an Attribute Score, Skill Score, etc.
+| Creature Lore | Guestimate an approximation of a key knowledge such as Steps, Stress Threshold, a Skill Score, etc.
 | Deception     | Disguise, bluff, lie, impersonate.
 | Geography     | Travel routes, local area knowledge, imports/exports, local prices, local laws.
 | Healing       | First Aid, identify diseases and poisons.
 | History       | Local lore, ancient lore. Knowledge of the old gods, of ancient cultures, races heroes and items.
 | Insight       | Gain insight into the motivations and feelings of another person.
-| Melee         | Attack with melee weapons.
+| Melee Combat  | Attack with melee weapons.
 | Negotiation   | Intimidation, haggling, interrogation.
-| Ranged        | Attack with ranged- and thrown weapons.
+| Range Combat  | Attack with ranged- and thrown weapons.
 | Reaction      | Avoid traps, dodge explotions and other area effects.
 | Riding        | Horses, stags, griffons.
 | Stealth       | Hide, sneak, camouflage.
@@ -281,6 +283,25 @@ making you redo tests that relies heavily on endurance.
 
 
 == Gear
+
+A character starts with 2 items from the Weapons table, 1 item from the Armors
+table, and 4 items from the Gear tables.
+
+Load Points::
+Items have Load Points that represent how difficult they are to lug around.
+
+Carrying Capacity::
+A character can carry 10 load points. Certain traits, spells, enchantments,
+can modify the character's carrying capacity.
+
+Equipment Slots::
+A character has 8 equipment slots, meaning that she can carry 8 "relevant" items.
+Items that are not essential to the game (undergarments, grooming equipment, etc.)
+or that have negleble weight (maps, drawings, letters, jewelry) do not not count.
+
+Food, money, ammo::
+We do not bother with those things in KISS. Wealth is measured in XP, and XP
+can be converted to items.
 
 [%header, cols="4,4*^.^"]
 .Weapons
@@ -307,7 +328,7 @@ NOTE: The `+` denotes that the die is open-ended.
 [%header, cols="4,4*^.^"]
 .Armors
 |===
-| Armor             | Load  | Stress    | Hit   |  Move
+| Armor             | Load  | Stress    | Hit   |  Steps
 
 | Unarmored         | 0     | 10        | 8     | ±0
 | Leather           | 1     | 11        | 8     | ±0
@@ -323,6 +344,15 @@ NOTE: The `+` denotes that the die is open-ended.
 | Shield            | 1     | ±0        | +1    | ± 0
 | Helmet            | 1     | +1        | ±0    | ± 0
 |===
+
+[NOTE]
+====
+*Load*   is the number of Load Points you loose when wearing this armor. +
+*Stress* is how many points of damage you can suffer before suffering a consequence. +
+*Hit*    is the target number you need to successfully attack the wearer. +
+*Steps*  is the number of Step actions you loose if you're wearing the given armor. +
+
+====
 
 == Powerups
 
@@ -376,17 +406,26 @@ ally.
 
 == Combat
 
-You have one move action and one main action each round.
+There are a number of common terms used in combat. When you understand them
+all, you'll have a pretty good idea how com idea how combat works.
 
-Move Action::
-* Move up to 5 squares.
-* Get up from prone position and move 3 squares.
-* Sustain a spell
+Initiative::
+Combat is divided into rounds, in which combatants act in turn.
+At the beginning of each round, each side chooses one character to roll
+a Reaction skill test. The side with the highest roll gets to go first
+that round.
 
-Main Action::
-* Attack.
-* Cast a spell (unless special casting time).
+NOTE:: This means that sometimes, one side gets to act twice in a row.
 
-Reaction (costs 1 karma each)::
-* Attack opponent who moves out of your melee range.
-* Cast Counterspell.
+Steps action Actions::
+During a combat round, you have 5 Steps and 1 Action. You can take them in any order.
+You can take 3 Step action, your main Action, and then up to 2 more Step actions.
+
+Steps::
+The most common use of a Step is to move 1 square in any direction, but there are 
+more uses than that:
+* You can expend 3 Steps to get up from prone position.
+* You can exchange your Action to get 5 more Steps.
+* You can expend 5 Steps to sustain a spell.
+
+NOTE: Certain traits can modify the number of Steps you get each round.
