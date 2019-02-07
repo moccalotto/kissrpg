@@ -56,9 +56,9 @@ these points. Some of them are described below:
 TIP: High powered campaigns might reset the karma to 3 or 4, while more
 realistic campaigns might reset karma to 1 or 0. Some groups might prefer not
 to reset the karma pools at all, possibly imposing upper limits on how many
-karma points a character can have, and possibly reducing the number of
-experience points awarded to the players, forcing them to convert karma into
-XP.
+karma points a character can accumulate. In souch settings, you could reduce
+the number of experience points awarded to the players, forcing them to convert
+karma into XP. More on this later.
 
 Exploding roll::
 At the cost of 1 karma, before you roll any dice, you can declare that you want
@@ -76,22 +76,26 @@ If you have a hero die, you can spend 1 karma point to add that hero die to
 any roll you want. You must declare that you are making a heroic roll _before_
 you roll any dice.
 
-Redo a failed test::
+Redo a test::
 At the cost of 3 karma, you can declare that you want to reroll a failed test.
 This is be done _after_ the dice are rolled, but before the GM tells you
 whether the test succeeded or not.
 
 Learn from your failures::
-You can convert 10 karma points into 1 experience point.  This can only be done
-once per session.
+You can convert 10 karma points into 1 experience point.
 
+TIP: Some groups might want to impose a limit on how many times you can »learn
+from your failures« per session. Others might want to lower the number of XP
+awarded per session, instead relying on the players' accumulated karma to be
+converted to XP.
 
 
 == Traits
 
 The first game-mechanical thing to do when creating a new character is to
 describe her via traits. You must choose 3 positive traits and 1 negative
-trait.
+trait. You *can* choose more traits if you like, but for every positive trait
+you add, you must also add a negative one.
 
 NOTE: In KISS, concepts like attributes, races, background, heritages, etc.
 have been replaced by traits.
@@ -254,6 +258,21 @@ making you redo tests that relies heavily on endurance.
 
 == Skils
 
+There are 6 skill levels:
+Untrained,
+Novice (d4),
+Journeyman (d6),
+Advanced (d8),
+Expert (d10),
+and Master (d12).
+
+TIP: A character who is a Journeyman in the Melee Combat skill will roll d10 +
+d6 whenever she makes a melee attack (provided her base die is d10).
+
+New characters start with 3 skills at the novice (d4) level, 2 skills at the
+journeyman (d6) level, and 1 skill at the advanced (d8) level, all other skills
+are untrained.
+
 [%header,cols="1,6"]
 .Skills
 |===
@@ -284,8 +303,8 @@ making you redo tests that relies heavily on endurance.
 
 == Gear
 
-A character starts with 2 items from the Weapons table, 1 item from the Armors
-table, and 4 items from the Gear tables.
+New characters start with 2 items from the Weapons table, 1 item from the
+Armors table, and 4 items from the Gear tables.
 
 Load Points::
 Items have Load Points that represent how difficult they are to lug around.
@@ -295,13 +314,19 @@ A character can carry 10 load points. Certain traits, spells, enchantments,
 can modify the character's carrying capacity.
 
 Equipment Slots::
-A character has 8 equipment slots, meaning that she can carry 8 "relevant" items.
-Items that are not essential to the game (undergarments, grooming equipment, etc.)
-or that have negleble weight (maps, drawings, letters, jewelry) do not not count.
+A character has 8 equipment slots, meaning that she can carry 8 "relevant"
+items. Items that are not essential to the game (undergarments, grooming
+equipment, love letters from the sweet heart, etc.) or that have negleble
+weight (maps, drawings, letters, jewelry) do not not count.
+
+NOTE: it is up to the group to determine which items are relevant. 
+Some groups may make pets take up one equpment slot, some want to
+track potables as items, etc.
 
 Food, money, ammo::
 We do not bother with those things in KISS. Wealth is measured in XP, and XP
 can be converted to items.
+
 
 [%header, cols="4,4*^.^"]
 .Weapons
