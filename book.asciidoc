@@ -1,7 +1,9 @@
 = KISS RPG
+Kim Ravn Hansen <kim@krhit.com>
+:doctype: book
 :toc:
 :sectnums:
-:checkedbox: pass:normal[{startsb}&#10004;{endsb}]
+:toclevels: 1
 
 Kiss is a set of simple and all-purpose tabletop role playing game rules.  Even
 though this document is focussed on the classic medieval fantasy setting, these
@@ -319,7 +321,7 @@ items. Items that are not essential to the game (undergarments, grooming
 equipment, love letters from the sweet heart, etc.) or that have negleble
 weight (maps, drawings, letters, jewelry) do not not count.
 
-NOTE: it is up to the group to determine which items are relevant. 
+NOTE: it is up to the group to determine which items are relevant.
 Some groups may make pets take up one equpment slot, some want to
 track potables as items, etc.
 
@@ -392,15 +394,143 @@ from adventuring, you can purchase additional powerups, or increase the oomph
 of the ones you already have.
 
 
-Lucky (XP cost: 2, 3, or 5)::
-Your karma reset value is 3, 4, or 4.
+=== Heroism
+
+The heroism powerups boost the characters overall abilities without being
+linked to any particular abilities, spells, or items.
+
+Lucky::
+The _lucky_ powerup increases your karma reset value, giving
+you more karma every time a new session starts.
+[%header, cols="4,3,40a"]
+.Lucky Powerup
+|===
+| Level | XP | Description
+| 1     | 2  | Your karma reset value is 3
+| 2     | +2 | Your karma reset value is 4
+| 3     | +2 | Your karma reset value is 5
+|===
+
+Take the hit (XP cost: 1)::
+When one of your opponents attacks one of your allies, you can spend 1 karma
+and declare that the opponent attacks you instead. This only works if the
+opponent is able to attack you the same way as they intended to attack your
+ally.
+
+
+
+Hero::
+The _hero_ powerup gives you the ability to add a hero die to your rolls.
+The higher level you attain in _hero_, the bigger your hero die.
+
+[%header, cols="4,3,40a"]
+.Hero Powerup
+|===
+| Level | XP  | Description
+| 1     | 10  | Your hero die is d4
+| 2     | +2  | Your hero die is d4+
+| 3     | +3  | Your hero die is d6
+| 4     | +4  | Your hero die is d6+
+| 5     | +5  | Your hero die is d8
+| 6     | +6  | Your hero die is d8+
+| 7     | +7  | Your hero die is d10
+| 8     | +8  | Your hero die is d10+
+| 7     | +9  | Your hero die is d12
+| 8     | +10 | Your hero die is d12+
+|===
+
+
+=== Magic
+Magic powerups are essentially spells.  Some spells cost karma to cast.  Some
+spells power levels can be increased if you pay a lot of karma.  If you don't
+have enough karma to cast a spell, you can cast it as a ritual: 15 minutes per
+karma point required.  Casting spells as rituals causes one stress point of
+damage per karma.
+
+Spells can be instant, sustained, or have a fixed duration.
+
+* Instant spells are fire-and-forget.
+* Sustained spells must be sustained by spending a number of Steps each round.
+  See the <<Combat>> chapter for more info about Steps.
+* Fixed-duration spells last as long as the duration description of the spell.
+
+// End of list
+
+Cantrip::
+Cantrips are seemingly simply effects that can aid the magic user in everyday
+situations, but they can actually be extremely powerful, especially at the
+higher levels.  Any non-instantaneous effects of cantrips (for instance the
+light effects) require concentration.
+
+[%header, cols="4,3,40a"]
+.Cantrip Powerup
+|===
+| Level | XP  | Description
+
+| 1
+| 1
+|
+* Create a small sound originating from a nearby location.
+* Light a nearby candle.
+* Instantly clean a dirty object no larger than your fist.
+* Instantly Heat or cool a meal or a drink.
+
+| 2
+| +1
+|
+* Create a small illusionary image about the size of your fist, located in your
+  hand or somewhere else on your person.
+* Make an object no larger than your fist shine with the same
+  brightness as a candle.
+* Instantly clean a part of a dirty surface. The cleaned area can be as large
+  as a dinner plate.
+
+| 3
+| +1
+|
+* Repair a break or tear no larger than your fist. This effect also removes
+  rust, scratches and wear.
+* Make an object no larger than your fist shine with the same brightness
+  as a torch.
+* Instantly light a bonfire.
+* Instantly create one basic meal, including water.
+* Open a tiny portal to a personal alternate dimension where you can store
+  items no larger than your arm. The items can be retrieved when you cast
+  this spell again.
+
+| 4
+| +1
+|
+* Summon a spiritual servant that can do simple tasks such as cleaning,
+  sewing.
+* Instantly create a bonfire, even though you have no fuel.
+* Instantly create one "fancy" mean, including water and ale.
+
+| 5
+| +1
+|
+* Tiny hut§§§§§.
+* Instantly tidy and clean dirty and untidy up room.
+* Instantly sort a row of books by author, subject and/or title.
+* Permanently make a small object shine with the same brightness
+  as a large bonfire.
+* Instantly create a luxury banquet for 4 persons, including several courses
+  and fine wine.
+* Instantly retrieve one item from your personal space directly into your
+  hand.
+|===
+
+
+
+Do one of the following:
+
+
+
+=== Equipment
 
 Ship Owner (XP cost: 3, 5, or 8)::
 You own a spaceship. The amount of XP you pay for this powerup determines the
 size of the ship.
-
-Hero Die (XP cost: 10, 14, 20, 28, 38, or 50)::
-Gain a d4, d6, d8, d10, or d12 hero die.
 
 Fancy Item§§§§::
 You get a fancy item corresponding to the number of experience points put into this powerup.
@@ -410,22 +540,7 @@ If you loose or break this item, you do not get the XP back.
 NOTE: that the GM may "give" you an item, but you must still pay a sum of XP in order to be able to
 attune to it (use it).
 
-Spell§§§§::
-Spells are powerups.
-Some spells cost karma to cast.
-Some spells power levels can be increased if you pay a lot of karma.
-If you don't habe enough karma to cast a spell, you can cast it as a ritual: 15 minutes per karma point required.
-Spells can be instant, sustained, or have a fixed duration.
-* Instant spells are fire-and-forget.
-* Sustained spells must be sustained with either a move action or a main action each round.
-* Fixed-duration spells last as long as the duration description of the spell.
-  They can only be cancelled/dismissed with a "Dispell Magic" spell.
 
-Take the hit (XP cost: 1)::
-When one of your opponents attacks one of your allies, you can spend 1 karma
-and declare that the opponent attacks you instead. This only works if the
-opponent is able to attack you the same way as they intended to attack your
-ally.
 
 
 == Combat
@@ -447,14 +562,14 @@ order. For instance, you can take 3 Steps, your main Action, and then up
 to 2 more Steps.
 
 Steps::
-The most common use of a Step is to move 1 square in any direction, but there are 
+The most common use of a Step is to move 1 square in any direction, but there are
 more uses than that. You can:
 * Spend one Step to move 1 square in any direction.
 * Spend 3 Steps to get up from prone position.
 * Spend 5 Steps to sustain a spell.
 
 Actions::
-The most convetional use of an action is to attack. However, you can also:
+The most conventional use of an action is to attack. However, you can also:
 * Spend your Action to attack an adjacent opponent with the Melee Combat skill.
 * Spend your Action to attack an opponent with the Ranged Combat skill.
 * Spend your Action to cast a spell.
