@@ -451,9 +451,11 @@ damage per karma.
 Spells can be instant, sustained, or have a fixed duration.
 
 * Instant spells are fire-and-forget.
+* Fixed-duration spells last as long as the duration description of the spell.
 * Sustained spells must be sustained by spending a number of Steps each round.
   See the <<Combat>> chapter for more info about Steps.
-* Fixed-duration spells last as long as the duration description of the spell.
+  All spells that are not instant or do not explicitly have a duration are
+  considered to be Sustained.
 
 // End of list
 
@@ -491,6 +493,7 @@ light effects) require concentration.
 |
 * Repair a break or tear no larger than your fist. This effect also removes
   rust, scratches and wear.
+* Magic Fingers§§§§.
 * Make an object no larger than your fist shine with the same brightness
   as a torch.
 * Instantly light a bonfire.
@@ -510,7 +513,7 @@ light effects) require concentration.
 | 5
 | +1
 |
-* Tiny hut§§§§§.
+* Tiny hut§§§§.
 * Instantly tidy and clean dirty and untidy up room.
 * Instantly sort a row of books by author, subject and/or title.
 * Permanently make a small object shine with the same brightness
@@ -519,6 +522,54 @@ light effects) require concentration.
   and fine wine.
 * Instantly retrieve one item from your personal space directly into your
   hand.
+|===
+
+Illusion::
+Illusion spells create images and sounds that appear to be real, but
+fundamentally aren't.  At the higher levels, illusions can be so real that they
+can inflict damage and otherwise interact with living beings.  Illusions can be
+disbelieved at the GMs discretion. It often involves pitting the disbeliever's
+Willpower test against the illusionist's Arcana.
+
+
+[%header, cols="4,3,40a"]
+.Illusion Powerup
+|===
+| Level | XP  | Description
+
+| 1
+| 1
+|
+* Create a small, animated illusory image the size of your head that lasts as
+  long as you sustain it.
+* Disguise self. Change your clothing, gender, race and physical appearance.
+  light sword. You can use your Arcana skill to attack with the weapon.
+* §§§§ Message (range: 50 meters)
+
+| 2
+| +1
+|
+* Create an illusory melee weapon that has the same characteristics as a
+  light sword. You can use your Arcana skill to attack with the weapon.
+* §§§§ Message (range: 500 meters)
+
+| 3
+| +1
+|
+* Create an illusory ranged weapon that has the same characteristics as a
+  heavy crossbow. You can use your Arcana skill to attack with the weapon.
+* §§§§ Ephemeral Bolt.
+* §§§§ Invoke duplicity.
+* Illusory Dwelling.
+* Illusory Wall of fire.
+
+| 4
+| +1
+|
+* §§§§ Mirror Image (3 · Invoke Duplicity)
+* §§§§ Illusory summoned horde of monsters.
+* §§§§ Message (no range limit) - costs 1 karma per sentence (about 20 words).
+
 |===
 
 
