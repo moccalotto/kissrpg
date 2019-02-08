@@ -4,6 +4,7 @@ Kim Ravn Hansen <kim@krhit.com>
 :toc:
 :sectnums:
 :toclevels: 1
+:homepage: https://krhit.com/kissrpg
 
 Kiss is a set of simple and all-purpose tabletop role playing game rules.  Even
 though this document is focussed on the classic medieval fantasy setting, these
@@ -522,10 +523,6 @@ light effects) require concentration.
 
 
 
-Do one of the following:
-
-
-
 === Equipment
 
 Ship Owner (XP cost: 3, 5, or 8)::
@@ -539,7 +536,6 @@ If you loose or break this item, you do not get the XP back.
 
 NOTE: that the GM may "give" you an item, but you must still pay a sum of XP in order to be able to
 attune to it (use it).
-
 
 
 
