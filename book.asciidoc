@@ -171,8 +171,8 @@ actions like any normal character, but doing so costs a karma point.
 Tiny::
 Once per scene you can completely avoid an attack. If you declare your intent
 to avoid the attack before the attacker rolls their dice it costs 2 karma
-point. If you avoid the attack after the attacker rolls their dice it costs 3
-karma points.
+points. If you want to avoid the attack after the attacker rolls their dice it
+costs 3 karma points.
 
 Tough::
 Once per scene you can avoid avoid getting a Consequence from a single attack.
@@ -230,7 +230,7 @@ conflict, problem or disadvantage to you or the party.
 Poor::
 §§§§ Not much stuff.
 
-Short Legs::
+[[short-legs]]Short Legs::
 You only get 4 Steps per combat round instead of 5.
 When you exchange your Action for extra Steps, you only
 get 4 Steps.
@@ -428,7 +428,6 @@ opponent is able to attack you the same way as they intended to attack your
 ally.
 
 
-
 == Combat
 
 There are a number of common terms used in combat. When you understand them
@@ -442,15 +441,26 @@ that round.
 
 NOTE:: This means that sometimes, one side gets to act twice in a row.
 
-Steps action Actions::
-During a combat round, you have 5 Steps and 1 Action. You can take them in any order.
-You can take 3 Step action, your main Action, and then up to 2 more Step actions.
+Rounds::
+During a combat round, you have 5 Steps and 1 Action which you can take in any
+order. For instance, you can take 3 Steps, your main Action, and then up
+to 2 more Steps.
 
 Steps::
 The most common use of a Step is to move 1 square in any direction, but there are 
-more uses than that:
-* You can expend 3 Steps to get up from prone position.
-* You can exchange your Action to get 5 more Steps.
-* You can expend 5 Steps to sustain a spell.
+more uses than that. You can:
+* Spend one Step to move 1 square in any direction.
+* Spend 3 Steps to get up from prone position.
+* Spend 5 Steps to sustain a spell.
+
+Actions::
+The most convetional use of an action is to attack. However, you can also:
+* Spend your Action to attack an adjacent opponent with the Melee Combat skill.
+* Spend your Action to attack an opponent with the Ranged Combat skill.
+* Spend your Action to cast a spell.
+* Spend your Action to get 5 more Steps.
 
 NOTE: Certain traits can modify the number of Steps you get each round.
+For instance, a creature with <<short-legs, Short Legs>> would only
+have 4 Steps every round, and only gain 4 more Steps when they converted
+their Action to Steps.
