@@ -551,6 +551,7 @@ Willpower test against the illusionist's Arcana.
 |
 * Create an illusory melee weapon that has the same characteristics as a
   light sword. You can use your Arcana skill to attack with the weapon.
+* Disguise other. Change clothing, gender, race and physical appearance of an ally in sight.
 * §§§§ Message (range: 500 meters)
 
 | 3
