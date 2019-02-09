@@ -2,8 +2,9 @@
 Kim Ravn Hansen <kim@krhit.com>
 :doctype: book
 :toc:
-:sectnums:
 :toclevels: 1
+:sectnums:
+:sectnumlevels: 1
 :homepage: https://krhit.com/kissrpg
 
 Kiss is a set of simple and all-purpose tabletop role playing game rules.  Even
@@ -400,7 +401,7 @@ of the ones you already have.
 The heroism powerups boost the characters overall abilities without being
 linked to any particular abilities, spells, or items.
 
-Lucky::
+==== Lucky
 The _lucky_ powerup increases your karma reset value, giving
 you more karma every time a new session starts.
 [%header, cols="4,3,40a"]
@@ -412,7 +413,8 @@ you more karma every time a new session starts.
 | 3     | +2 | Your karma reset value is 5
 |===
 
-Take the hit (XP cost: 1)::
+
+==== Take the hit (XP cost: 1)
 When one of your opponents attacks one of your allies, you can spend 1 karma
 and declare that the opponent attacks you instead. This only works if the
 opponent is able to attack you the same way as they intended to attack your
@@ -420,7 +422,7 @@ ally.
 
 
 
-Hero::
+==== Hero
 The _hero_ powerup gives you the ability to add a hero die to your rolls.
 The higher level you attain in _hero_, the bigger your hero die.
 
@@ -459,7 +461,7 @@ Spells can be instant, sustained, or have a fixed duration.
 
 // End of list
 
-Cantrip::
+==== Cantrip
 Cantrips are seemingly simply effects that can aid the magic user in everyday
 situations, but they can actually be extremely powerful, especially at the
 higher levels.  Any non-instantaneous effects of cantrips (for instance the
@@ -493,7 +495,7 @@ light effects) require concentration.
 |
 * Repair a break or tear no larger than your fist. This effect also removes
   rust, scratches and wear.
-* Magic Fingers§§§§.
+* Telekinetically move nearby object that weighs no more than 
 * Make an object no larger than your fist shine with the same brightness
   as a torch.
 * Instantly light a bonfire.
@@ -506,7 +508,8 @@ light effects) require concentration.
 | +1
 |
 * Summon a spiritual servant that can do simple tasks such as cleaning,
-  sewing.
+  sewing, mending. The spiritual servant has the same physical strength as a
+  small child, but same size as the caster.
 * Instantly create a bonfire, even though you have no fuel.
 * Instantly create one "fancy" mean, including water and ale.
 
@@ -522,9 +525,12 @@ light effects) require concentration.
   and fine wine.
 * Instantly retrieve one item from your personal space directly into your
   hand.
+
 |===
 
-Illusion::
+
+
+==== Illusion
 Illusion spells create images and sounds that appear to be real, but
 fundamentally aren't.  At the higher levels, illusions can be so real that they
 can inflict damage and otherwise interact with living beings.  Illusions can be
@@ -552,6 +558,7 @@ Willpower test against the illusionist's Arcana.
 * Create an illusory melee weapon that has the same characteristics as a
   light sword. You can use your Arcana skill to attack with the weapon.
 * Disguise other. Change clothing, gender, race and physical appearance of an ally in sight.
+* Disguise self for 8 hours.
 * §§§§ Message (range: 500 meters)
 
 | 3
@@ -563,6 +570,8 @@ Willpower test against the illusionist's Arcana.
 * §§§§ Invoke duplicity.
 * Illusory Dwelling.
 * Illusory Wall of fire.
+* Disguise Other for 8 hours.
+* Disguise up to 8 allies in sight.
 
 | 4
 | +1
@@ -570,6 +579,8 @@ Willpower test against the illusionist's Arcana.
 * §§§§ Mirror Image (3 · Invoke Duplicity)
 * §§§§ Illusory summoned horde of monsters.
 * §§§§ Message (no range limit) - costs 1 karma per sentence (about 20 words).
+* Disguise up to 8 allies in sight for 8 hours.
+
 
 |===
 
@@ -596,7 +607,7 @@ attune to it (use it).
 There are a number of common terms used in combat. When you understand them
 all, you'll have a pretty good idea how com idea how combat works.
 
-Initiative::
+=== Initiative
 Combat is divided into rounds, in which combatants act in turn.
 At the beginning of each round, each side chooses one character to roll
 a Reaction skill test. The side with the highest roll gets to go first
@@ -604,19 +615,19 @@ that round.
 
 NOTE:: This means that sometimes, one side gets to act twice in a row.
 
-Rounds::
+=== Rounds
 During a combat round, you have 5 Steps and 1 Action which you can take in any
 order. For instance, you can take 3 Steps, your main Action, and then up
 to 2 more Steps.
 
-Steps::
+=== Steps
 The most common use of a Step is to move 1 square in any direction, but there are
 more uses than that. You can:
 * Spend one Step to move 1 square in any direction.
 * Spend 3 Steps to get up from prone position.
 * Spend 5 Steps to sustain a spell.
 
-Actions::
+=== Actions
 The most conventional use of an action is to attack. However, you can also:
 * Spend your Action to attack an adjacent opponent with the Melee Combat skill.
 * Spend your Action to attack an opponent with the Ranged Combat skill.
@@ -627,3 +638,46 @@ NOTE: Certain traits can modify the number of Steps you get each round.
 For instance, a creature with <<short-legs, Short Legs>> would only
 have 4 Steps every round, and only gain 4 more Steps when they converted
 their Action to Steps.
+
+=== Stress
+
+Damage, wounds, stress and strain are represented by Stress Points.  If a
+character accumulates 10 Stress Points (this is called the Stress Threshold),
+they receive a Consequence and reset their stress-counter. Stress points do not
+carry over.
+
+Armors can increase a character's stress threshold such that they
+can accumulate more than 10 points of damage before suffering consequences.
+
+Damage from _vorpal_ attacks are carried over and can therefore cause multiple
+consequences from a single attack. Luckily vorpal attacks require special 
+weapons and/or special heroic powerups.
+
+Example:: If a character with 8 stress points receives additional 24 stress points
+from a single strike, they get one consequence, and the stress counter is reset
+to zero. Thus it would not have mattered if the character got a 2-point wound
+or a 1000-point wound.
+
+Example:: If a character with 8 stress points receives additional 24 stress
+points from a single _vorpal_ attack, they get 3 consequences, and the stress
+counter is now 2 (8 + 25 = 32 = 3 · consequence + 2 · stress).
+
+Stress and consequences is a way of ensuring that characters do not get
+one-shot-killed. Under normal circumstances, it would require a number of hits
+to kill a character. Vorpal attacks ensure that certain rare kinds of attacks
+can still kill a character in one go.
+
+[%header,cols="1,6"]
+.Stress and Consequences
+|===
+| Consequences  | Effect
+| 0             | No effects, base die is nominal (usually d10).
+| 1             | Base die is one step below nominal (usually d8).
+| 2             | Base die is 2 steps below nominal (usually d6).
+| 3             | Base die is 3 steps below nominal (usually d4).
+| 4             | Unconsciousness.
+| 6             | Death.
+|===
+
+NOTE:: Some NPCs can suffer more or fewer consequences, and some have higher or
+lower stress thresholds than normal characters.
