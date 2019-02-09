@@ -681,3 +681,11 @@ can still kill a character in one go.
 
 NOTE:: Some NPCs can suffer more or fewer consequences, and some have higher or
 lower stress thresholds than normal characters.
+
+
+[appendix]
+== Appendix
+
+
+[index]
+== Index
