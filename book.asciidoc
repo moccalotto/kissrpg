@@ -24,7 +24,7 @@ target number, you succeed.
 
 Base Die::
 When you roll a 10 on your base die, you may roll it again and add the result.
-You can do this as long as you keep rolling 10s. If your base die has been
+You can do this as long as you keep rolling tens. If your base die has been
 modified (for instance, the base die is reduced as a consequence of damage and
 stress), this rule still applies as long as you roll the highest possible
 number on the die. Adding rerolls like this is called an _open-ended die_ or
@@ -43,7 +43,7 @@ actions. This is referred to as a skill test. Unless otherwise specified, the
 skill die is not open-ended.
 
 Hero Die::
-When a a hero has become sufficiently advanced and experienced, she gains the
+When a hero has become sufficiently advanced and experienced, she gains the
 ability to add a hero die to certain rolls. This number of sides on the hero
 die depends on how experienced the hero is.
 
@@ -60,7 +60,7 @@ these points. Some of them are described below:
 TIP: High powered campaigns might reset the karma to 3 or 4, while more
 realistic campaigns might reset karma to 1 or 0. Some groups might prefer not
 to reset the karma pools at all, possibly imposing upper limits on how many
-karma points a character can accumulate. In souch settings, you could reduce
+karma points a character can accumulate. In such settings, you could reduce
 the number of experience points awarded to the players, forcing them to convert
 karma into XP. More on this later.
 
@@ -132,7 +132,7 @@ Unencumbered::
 You can carry 15 load points worth of gear instead of the usual 10.
 
 [[magic-user]]Magic User::
-You can cast magical spells.
+You have access to the <<_magic,magic>> powerups.
 
 Mnemonist::
 You can accurately recall anything you have ever seen or heard at the cost of 2
@@ -197,6 +197,9 @@ You have an addiction (alcohol, drugs, sex, gambling). Once per session, at the
 cost of 3 karma points, the GM can enforce your addiction to create a conflict,
 problem or disadvantage to you or the party.
 
+Average§§§§::
+You base die is not open ended.
+
 Diminutive::
 The GM can make you reroll your base die in intimidation check in exchange for
 1 karma points.
@@ -226,6 +229,11 @@ You are addicted to stealing. Once per session, at the cost of 2 karma points,
 the GM can enforce your obsession to create a potential conflict, problem or
 disadvantage to you or the party.
 
+Limp::
+Your Step Rate is 4 instead of 5. This means only get 4 Steps per combat round
+instead of 5. When you exchange your Action for extra Steps, you only get 4
+Steps.
+
 Obsessed::
 You are obsessed with a person, place, thing or phenomenon. Once per session,
 at the cost of 3 karma points, The GM can enforce your obsession to create a
@@ -235,9 +243,8 @@ Poor::
 §§§§ Not much stuff.
 
 [[short-legs]]Short Legs::
-You only get 4 Steps per combat round instead of 5.
-When you exchange your Action for extra Steps, you only
-get 4 Steps.
+Same effect as the »Limp« trait. A character that is both Limp and has
+Short Legs will only have a Step Rate of 3.
 
 Thickheaded::
 Once per session, at the cost of 2 karma points, the GM can enforce your
@@ -260,7 +267,7 @@ GM can limit your ability to perform demanding physical tasks over long periods
 of time. At the cost of 2 karma points the GM can enforce your weakness by
 making you redo tests that relies heavily on endurance.
 
-== Skils
+== Skills
 
 There are 6 skill levels:
 Untrained,
@@ -270,7 +277,7 @@ Advanced (d8),
 Expert (d10),
 and Master (d12).
 
-TIP: A character who is a Journeyman in the Melee Combat skill will roll d10 +
+*Example:* A character who is a Journeyman in the Melee Combat skill will roll d10 +
 d6 whenever she makes a melee attack (provided her base die is d10).
 
 New characters start with 3 skills at the novice (d4) level, 2 skills at the
@@ -296,8 +303,8 @@ are untrained.
 | Melee Combat  | Attack with melee weapons.
 | Negotiation   | Intimidation, haggling, interrogation.
 | Range Combat  | Attack with ranged- and thrown weapons.
-| Reaction      | Avoid traps, dodge explotions and other area effects.
-| Riding        | Horses, stags, griffons.
+| Reaction      | Avoid traps, dodge explosions and other area effects.
+| Riding        | Horses, stags, griffins.
 | Stealth       | Hide, sneak, camouflage.
 | Survival      | Hunting, gathering, direction sense.
 | Thievery      | Pick locks, slight of hand.
@@ -320,12 +327,8 @@ can modify the character's carrying capacity.
 Equipment Slots::
 A character has 8 equipment slots, meaning that she can carry 8 "relevant"
 items. Items that are not essential to the game (undergarments, grooming
-equipment, love letters from the sweet heart, etc.) or that have negleble
+equipment, love letters from the sweet heart, etc.) or that have negligible
 weight (maps, drawings, letters, jewelry) do not not count.
-
-NOTE: it is up to the group to determine which items are relevant.
-Some groups may make pets take up one equpment slot, some want to
-track potables as items, etc.
 
 Food, money, ammo::
 We do not bother with those things in KISS. Wealth is measured in XP, and XP
@@ -351,7 +354,15 @@ can be converted to items.
 | Scatterguns                   | 3     | d10+  | d4    | -
 | Musket Rifles                 | 4     | 1d4   | d10+  | d6+
 |===
-NOTE: The `+` denotes that the die is open-ended.
+
+[NOTE]
+====
+*+*      denotes that the die is open-ended. +
+*Load*   is the number of Load Points you loose when wearing this armor. +
+*Close*  is the damage dealt in melee combat. +
+*Near*   is the damage dealt on short ranges. +
+*Far*    is the damage dealt on long ranges.
+====
 
 
 [%header, cols="4,4*^.^"]
@@ -379,13 +390,13 @@ NOTE: The `+` denotes that the die is open-ended.
 *Load*   is the number of Load Points you loose when wearing this armor. +
 *Stress* is how many points of damage you can suffer before suffering a consequence. +
 *Hit*    is the target number you need to successfully attack the wearer. +
-*Steps*  is the number of Step actions you loose if you're wearing the given armor. +
+*Steps*  is the effect on your Step Rate when wearing this armor. +
 
 ====
 
 == Powerups
 
-Having chocen traits, the second thing to do is to choose your powerups. You
+Having chosen traits, the second thing to do is to choose your powerups. You
 have 6 powerup slots (meaning that you can choose up to 6 powerups). You get 10
 experience points with which to purchase powerups, and you can choose any powerup
 that has an XP cost of 3 or lower.
@@ -620,12 +631,26 @@ During a combat round, you have 5 Steps and 1 Action which you can take in any
 order. For instance, you can take 3 Steps, your main Action, and then up
 to 2 more Steps.
 
+=== Step Rate
+Normal characters have a Step Rate of 5. This means that they get 5 Steps each
+round, however certain traits can modify the number of Steps you get each
+round. For instance, a creature with <<short-legs,Short Legs>> would only have
+a Step Rate of 4, meaning that they get 4 Steps every round, and only gain 4
+more Steps when they converted their Action to Steps.
+Certain items, such as armors and helmets, may further reduce your Step Rate.
+
+
 === Steps
 The most common use of a Step is to move 1 square in any direction, but there are
 more uses than that. You can:
 * Spend one Step to move 1 square in any direction.
 * Spend 3 Steps to get up from prone position.
-* Spend 5 Steps to sustain a spell.
+* Sustain a spell by expending a number of Steps equalling your Step Rate.
+
+NOTE: Some groups (or encounters) do not use squares, but may instead use a
+more narrative based approach. In these cases, you should be able to
+expend 4 steps to move from near range to close range of an opponent or expend
+8 steps to move from near range to far range of an opponent.
 
 === Actions
 The most conventional use of an action is to attack. However, you can also:
@@ -634,10 +659,29 @@ The most conventional use of an action is to attack. However, you can also:
 * Spend your Action to cast a spell.
 * Spend your Action to get 5 more Steps.
 
-NOTE: Certain traits can modify the number of Steps you get each round.
-For instance, a creature with <<short-legs, Short Legs>> would only
-have 4 Steps every round, and only gain 4 more Steps when they converted
-their Action to Steps.
+=== Range
+
+There are 3 types of range: _Close_, _Near_, and _Far_.
+
+Close::
+An opponent in Close range is typically in a square next to you, and can
+usually be attacked with melee weapons.
+
+Near::
+Opponents Near you are usually within 5 squares of you. This means that you can
+take 5 Steps to move up to the opponent and attack with the Melee Combat skill.
+Almost all ranged weapons can reach opponents Near you.  The GM should
+determine the "range" of the Near distance on a per-encounter basis.
+
+Far::
+Opponents that are Far away from you can only be attacked with Ranged Combat.
+It would require at least 15 Steps to reach such opponents.
+
+
+NOTE: Environmental effects such as wind, rain, poor lighting, etc. can reduce
+the range thresholds of the Near and Far distances. For instance, the GM might
+rule that, for a given battle taking place during a thunderstorm at night, the
+Near distance is 2 squares and the Far distance is 6 squares.
 
 === Stress
 
@@ -667,7 +711,7 @@ one-shot-killed. Under normal circumstances, it would require a number of hits
 to kill a character. Vorpal attacks ensure that certain rare kinds of attacks
 can still kill a character in one go.
 
-[%header,cols="1,6"]
+[%header,cols="1,5"]
 .Stress and Consequences
 |===
 | Consequences  | Effect
