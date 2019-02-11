@@ -335,6 +335,7 @@ We do not bother with those things in KISS. Wealth is measured in XP, and XP
 can be converted to items.
 
 
+====
 [%header, cols="4,4*^.^"]
 .Weapons
 |===
@@ -355,16 +356,15 @@ can be converted to items.
 | Musket Rifles                 | 4     | 1d4   | d10+  | d6+
 |===
 
-[NOTE]
-====
 *+*      denotes that the die is open-ended. +
 *Load*   is the number of Load Points you loose when wearing this armor. +
-*Close*  is the damage dealt in melee combat. +
-*Near*   is the damage dealt on short ranges. +
-*Far*    is the damage dealt on long ranges.
+*Close*  damage the weapon deals to opponents that are Close to you. +
+*Near*   damage the weapon deals to opponents that are Near you. +
+*Far*    damage the weapon deals to opponents that are Far away from you.
 ====
 
 
+====
 [%header, cols="4,4*^.^"]
 .Armors
 |===
@@ -385,8 +385,6 @@ can be converted to items.
 | Helmet            | 1     | +1        | ±0    | ± 0
 |===
 
-[NOTE]
-====
 *Load*   is the number of Load Points you loose when wearing this armor. +
 *Stress* is how many points of damage you can suffer before suffering a consequence. +
 *Hit*    is the target number you need to successfully attack the wearer. +
