@@ -318,11 +318,9 @@ New characters start with 2 items from the Weapons table, 1 item from the
 Armors table, and 4 items from the Gear tables.
 
 Load Points::
-Items have Load Points that represent how difficult they are to lug around.
-
-Carrying Capacity::
-A character can carry 10 load points. Certain traits, spells, enchantments,
-can modify the character's carrying capacity.
+Items have Load Points that represent how difficult they are to lug around.  A
+character can carry 10 load points worth of items.  Certain traits, spells,
+enchantments, can modify the character's carrying capacity.
 
 Equipment Slots::
 A character has 8 equipment slots, meaning that she can carry 8 "relevant"
@@ -331,8 +329,9 @@ equipment, love letters from the sweet heart, etc.) or that have negligible
 weight (maps, drawings, letters, jewelry) do not not count.
 
 Food, money, ammo::
-We do not bother with those things in KISS. Wealth is measured in XP, and XP
-can be converted to items.
+We do not bother with those things in KISS. Unless the GM says otherwise, you
+never run out of ammo, food or petty cash. Wealth is measured in XP, and XP can
+be converted to items.
 
 
 ====
@@ -385,10 +384,10 @@ can be converted to items.
 | Helmet            | 1     | +1        | ±0    | ± 0
 |===
 
-*Load*   is the number of Load Points you loose when wearing this armor. +
+*Load*   is the number of Load Points needed by the armor. +
 *Stress* is how many points of damage you can suffer before suffering a consequence. +
-*Hit*    is the target number you need to successfully attack the wearer. +
-*Steps*  is the effect on your Step Rate when wearing this armor. +
+*Hit*    is the target number needed to hit you. +
+*Steps*  is the effect on your Step Rate. +
 
 ====
 
