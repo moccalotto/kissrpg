@@ -720,7 +720,7 @@ can still kill a character in one go.
 | 6             | Death.
 |===
 
-NOTE:: Some NPCs can suffer more or fewer consequences, and some have higher or
+NOTE: Some NPCs can suffer more or fewer consequences, and some have higher or
 lower stress thresholds than normal characters.
 
 
