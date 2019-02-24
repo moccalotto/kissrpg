@@ -197,9 +197,6 @@ You have an addiction (alcohol, drugs, sex, gambling). Once per session, at the
 cost of 3 karma points, the GM can enforce your addiction to create a conflict,
 problem or disadvantage to you or the party.
 
-Average§§§§::
-You base die is not open ended.
-
 Diminutive::
 The GM can make you reroll your base die in intimidation check in exchange for
 1 karma points.
@@ -261,6 +258,9 @@ a given social challenge due to your social ineptitude.
 Underpowered::
 You have 4 powerup slots instead of 6.
 
+Underwelming::
+You base die is not open ended.
+
 Weak::
 You have trouble with forced marches, etc. At the cost of 3 karma points, the
 GM can limit your ability to perform demanding physical tasks over long periods
@@ -302,7 +302,7 @@ are untrained.
 | Insight       | Gain insight into the motivations and feelings of another person.
 | Melee Combat  | Attack with melee weapons.
 | Negotiation   | Intimidation, haggling, interrogation.
-| Range Combat  | Attack with ranged- and thrown weapons.
+| Ranged Combat | Attack with ranged- and thrown weapons.
 | Reaction      | Avoid traps, dodge explosions and other area effects.
 | Riding        | Horses, stags, griffins.
 | Stealth       | Hide, sneak, camouflage.
@@ -417,8 +417,8 @@ you more karma every time a new session starts.
 |===
 | Level | XP | Description
 | 1     | 2  | Your karma reset value is 3
-| 2     | +2 | Your karma reset value is 4
-| 3     | +2 | Your karma reset value is 5
+| 2     | 2  | Your karma reset value is 4
+| 3     | 2  | Your karma reset value is 5
 |===
 
 
@@ -439,15 +439,15 @@ The higher level you attain in _hero_, the bigger your hero die.
 |===
 | Level | XP  | Description
 | 1     | 10  | Your hero die is d4
-| 2     | +2  | Your hero die is d4+
-| 3     | +3  | Your hero die is d6
-| 4     | +4  | Your hero die is d6+
-| 5     | +5  | Your hero die is d8
-| 6     | +6  | Your hero die is d8+
-| 7     | +7  | Your hero die is d10
-| 8     | +8  | Your hero die is d10+
-| 7     | +9  | Your hero die is d12
-| 8     | +10 | Your hero die is d12+
+| 2     | 2   | Your hero die is d4+
+| 3     | 3   | Your hero die is d6
+| 4     | 4   | Your hero die is d6+
+| 5     | 5   | Your hero die is d8
+| 6     | 6   | Your hero die is d8+
+| 7     | 7   | Your hero die is d10
+| 8     | 8   | Your hero die is d10+
+| 7     | 9   | Your hero die is d12
+| 8     | 10  | Your hero die is d12+
 |===
 
 
@@ -489,7 +489,7 @@ light effects) require concentration.
 * Instantly Heat or cool a meal or a drink.
 
 | 2
-| +1
+| 1
 |
 * Create a small illusionary image about the size of your fist, located in your
   hand or somewhere else on your person.
@@ -499,7 +499,7 @@ light effects) require concentration.
   as a dinner plate.
 
 | 3
-| +1
+| 1
 |
 * Repair a break or tear no larger than your fist. This effect also removes
   rust, scratches and wear.
@@ -513,7 +513,7 @@ light effects) require concentration.
   this spell again.
 
 | 4
-| +1
+| 1
 |
 * Summon a spiritual servant that can do simple tasks such as cleaning,
   sewing, mending. The spiritual servant has the same physical strength as a
@@ -522,7 +522,7 @@ light effects) require concentration.
 * Instantly create one "fancy" mean, including water and ale.
 
 | 5
-| +1
+| 1
 |
 * Tiny hut§§§§.
 * Instantly tidy and clean dirty and untidy up room.
@@ -561,7 +561,7 @@ Willpower test against the illusionist's Arcana.
 * §§§§ Message (range: 50 meters)
 
 | 2
-| +1
+| 1
 |
 * Create an illusory melee weapon that has the same characteristics as a
   light sword. You can use your Arcana skill to attack with the weapon.
@@ -570,11 +570,12 @@ Willpower test against the illusionist's Arcana.
 * §§§§ Message (range: 500 meters)
 
 | 3
-| +1
+| 1
 |
 * Create an illusory ranged weapon that has the same characteristics as a
   heavy crossbow. You can use your Arcana skill to attack with the weapon.
-* §§§§ Ephemeral Bolt.
+* Create an illusory magical bolt that resembles another attack spell 
+  of 2nd level or lower.
 * §§§§ Invoke duplicity.
 * Illusory Dwelling.
 * Illusory Wall of fire.
@@ -582,8 +583,20 @@ Willpower test against the illusionist's Arcana.
 * Disguise up to 8 allies in sight.
 
 | 4
-| +1
+| 1
 |
+* Create an illusion of a creature you know. You inhabit the illusion and can
+  act completely as if you _are_ that creature. You can even interact with your
+  surroundings and do things such as lift a mug of ale and take a swig, open a
+  door, etc. You can  cast spells through the illusion, but you cannot
+  concentrate on any spells. This illusion lasts for up to 24 hours, it can be
+  dispelled by you at will, and it is dispelled automatically if you suffer
+  damage, fall asleep or go unconscious.  Food ingested while inhabiting the
+  illusion does not affect you; you do not get full, it does not satiate your
+  hunger or thirst, nor can you get drunk or poisoned. While the illusion is
+  active you cannot control your own body at all, so it would be a good idea to
+  lay down.
+  §§§§ You cannot be 
 * §§§§ Mirror Image (3 · Invoke Duplicity)
 * §§§§ Illusory summoned horde of monsters.
 * §§§§ Message (no range limit) - costs 1 karma per sentence (about 20 words).
@@ -613,7 +626,7 @@ attune to it (use it).
 == Combat
 
 There are a number of common terms used in combat. When you understand them
-all, you'll have a pretty good idea how com idea how combat works.
+all, you'll have a pretty good idea how combat works.
 
 === Initiative
 Combat is divided into rounds, in which combatants act in turn.
@@ -640,6 +653,7 @@ Certain items, such as armors and helmets, may further reduce your Step Rate.
 === Steps
 The most common use of a Step is to move 1 square in any direction, but there are
 more uses than that. You can:
+
 * Spend one Step to move 1 square in any direction.
 * Spend 3 Steps to get up from prone position.
 * Sustain a spell by expending a number of Steps equalling your Step Rate.
@@ -651,6 +665,7 @@ expend 4 steps to move from near range to close range of an opponent or expend
 
 === Actions
 The most conventional use of an action is to attack. However, you can also:
+
 * Spend your Action to attack an adjacent opponent with the Melee Combat skill.
 * Spend your Action to attack an opponent with the Ranged Combat skill.
 * Spend your Action to cast a spell.
