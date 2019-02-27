@@ -29,7 +29,7 @@ modified (for instance, the base die is reduced as a consequence of damage and
 stress), this rule still applies as long as you roll the highest possible
 number on the die. Adding rerolls like this is called an _open-ended die_ or
 exploding die.footnote:[Exploding Dice: https://anydice.com/articles/exploding-dice/]
-
++
 *Note*: It is not just the base die that can be open ended. Certain traits,
 powerups, abilities, equipment and karma uses can make dice open ended. If you
 see a die notation with a `+` at the end of it, it means that the die is
@@ -87,7 +87,7 @@ whether the test succeeded or not.
 
 Learn from your failures::
 You can convert 10 karma points into 1 experience point.
-
++
 *GM Tip*: Some groups might want to impose a limit on how many times you can »learn
 from your failures« per session. Others might want to lower the number of XP
 awarded per session, instead relying on the players' accumulated karma to be
@@ -185,10 +185,14 @@ are set to their maximum value, but you do not get the wound. Doing this costs
 one karma point.
 
 Wealthy::
-§§§§ How does wealth work when we don't use wealth?
+At the cost of one Karma, you and your party can stay for a night at the very
+best inn in town.  Additionally, once per session, at the cost of one Karma,
+you can purchase one luxury item such as perfume, aristocratic/court garments,
+a small piece of jewelry, etc.
 
 Well-equipped::
-You have 10 equipment slots instead of 8.
+You have 10 equipment slots instead of 8. You have two additional pieces of
+starting gear. You can select these items from any list.
 
 === Negative Traits
 
@@ -284,7 +288,7 @@ New characters start with 3 skills at the novice (d4) level, 2 skills at the
 journeyman (d6) level, and 1 skill at the advanced (d8) level, all other skills
 are untrained.
 
-[%header,cols="1,6"]
+[%header,cols="1,5"]
 .Skills
 |===
 | Skill         | Description
@@ -380,8 +384,9 @@ be converted to items.
 | Banded Mail       | 4     | 15        | 11    | -2
 | Half Plate        | 4     | 15        | 12    | -3
 | Full Plate        | 5     | 15        | 13    | -3
-| Shield            | 1     | ±0        | +1    | ± 0
-| Helmet            | 1     | +1        | ±0    | ± 0
+| Shield            | 1     | ±0        | +1    | ±0
+| Tower Shield      | 2     | +1        | +1    | -1
+| Helmet            | 1     | +1        | ±0    | ±0
 |===
 
 *Load*   is the number of Load Points needed by the armor. +
@@ -391,6 +396,20 @@ be converted to items.
 
 ====
 
+====
+[%header, cols="1,4"]
+.Gear
+|===
+| Gear          | Description
+
+| Clothes       | Poor / Common / Merchant / Aristocratic / Court
+| Rope          | 10 meters
+| Chain         | 5 meters
+| Camping gear  | Bedroll, blanket, pot, cup, etc.
+| Potion Kit    | For brewing potions
+|===
+
+====
 == Powerups
 
 Having chosen traits, the second thing to do is to choose your powerups. You
@@ -726,10 +745,10 @@ can still kill a character in one go.
 .Stress and Consequences
 |===
 | Consequences  | Effect
-| 0             | No effects, base die is nominal (usually d10).
-| 1             | Base die is one step below nominal (usually d8).
-| 2             | Base die is 2 steps below nominal (usually d6).
-| 3             | Base die is 3 steps below nominal (usually d4).
+| 0             | No effects, base die is nominal (d10).
+| 1             | Base die is one step below nominal (d8).
+| 2             | Base die is 2 steps below nominal (d6).
+| 3             | Base die is 3 steps below nominal (d4).
 | 4             | Unconsciousness.
 | 6             | Death.
 |===
