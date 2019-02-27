@@ -30,10 +30,10 @@ stress), this rule still applies as long as you roll the highest possible
 number on the die. Adding rerolls like this is called an _open-ended die_ or
 exploding die.footnote:[Exploding Dice: https://anydice.com/articles/exploding-dice/]
 
-NOTE: It is not just the base die that can be open ended. Certain traits,
+*Note*: It is not just the base die that can be open ended. Certain traits,
 powerups, abilities, equipment and karma uses can make dice open ended. If you
 see a die notation with a `+` at the end of it, it means that the die is
-open-ended.  For instance, `d6` just means you roll a d6, but `d6+` means you
+open-ended.  For instance, "d6" just means you roll a d6, but "d6+" means you
 roll an open- ended d6.
 
 Skill Die::
@@ -57,7 +57,7 @@ If you fail a meaningful roll (i.e. one that actually affects you, the party
 and/or the plot), you are awarded a karma point. There are many ways to spend
 these points. Some of them are described below:
 
-TIP: High powered campaigns might reset the karma to 3 or 4, while more
+*GM Tip*: High powered campaigns might reset the karma to 3 or 4, while more
 realistic campaigns might reset karma to 1 or 0. Some groups might prefer not
 to reset the karma pools at all, possibly imposing upper limits on how many
 karma points a character can accumulate. In such settings, you could reduce
@@ -88,7 +88,7 @@ whether the test succeeded or not.
 Learn from your failures::
 You can convert 10 karma points into 1 experience point.
 
-TIP: Some groups might want to impose a limit on how many times you can »learn
+*GM Tip*: Some groups might want to impose a limit on how many times you can »learn
 from your failures« per session. Others might want to lower the number of XP
 awarded per session, instead relying on the players' accumulated karma to be
 converted to XP.
@@ -101,7 +101,7 @@ describe her via traits. You must choose 3 positive traits and 1 negative
 trait. You *can* choose more traits if you like, but for every positive trait
 you add, you must also add a negative one.
 
-NOTE: In KISS, concepts like attributes, races, background, heritages, etc.
+*Note*: In KISS, concepts like attributes, races, background, heritages, etc.
 have been replaced by traits.
 
 
@@ -277,7 +277,7 @@ Advanced (d8),
 Expert (d10),
 and Master (d12).
 
-*Example:* A character who is a Journeyman in the Melee Combat skill will roll d10 +
+*Example*: A character who is a Journeyman in the Melee Combat skill will roll d10 +
 d6 whenever she makes a melee attack (provided her base die is d10).
 
 New characters start with 3 skills at the novice (d4) level, 2 skills at the
@@ -398,7 +398,7 @@ have 6 powerup slots (meaning that you can choose up to 6 powerups). You get 10
 experience points with which to purchase powerups, and you can choose any powerup
 that has an XP cost of 3 or lower.
 
-NOTE: In KISS, concepts like money, gear, special items, contacts, special
+*Note*: In KISS, concepts like money, gear, special items, contacts, special
 abilities, spells, etc. are all considered powerups. When you gain experience
 from adventuring, you can purchase additional powerups, or increase the oomph
 of the ones you already have.
@@ -618,9 +618,8 @@ You get a fancy item corresponding to the number of experience points put into t
 It is up to you and the GM to figure out how you get your hands on this item.
 If you loose or break this item, you do not get the XP back.
 
-NOTE: that the GM may "give" you an item, but you must still pay a sum of XP in order to be able to
+*Note*: that the GM may "give" you an item, but you must still pay a sum of XP in order to be able to
 attune to it (use it).
-
 
 
 == Combat
@@ -634,7 +633,7 @@ At the beginning of each round, each side chooses one character to roll
 a Reaction skill test. The side with the highest roll gets to go first
 that round.
 
-NOTE:: This means that sometimes, one side gets to act twice in a row.
+*Note*: This means that sometimes, one side gets to act twice in a row.
 
 === Rounds
 During a combat round, you have 5 Steps and 1 Action which you can take in any
@@ -658,7 +657,7 @@ more uses than that. You can:
 * Spend 3 Steps to get up from prone position.
 * Sustain a spell by expending a number of Steps equalling your Step Rate.
 
-NOTE: Some groups (or encounters) do not use squares, but may instead use a
+*Note*: Some groups (or encounters) do not use squares, but may instead use a
 more narrative based approach. In these cases, you should be able to
 expend 4 steps to move from near range to close range of an opponent or expend
 8 steps to move from near range to far range of an opponent.
@@ -690,7 +689,7 @@ Opponents that are Far away from you can only be attacked with Ranged Combat.
 It would require at least 15 Steps to reach such opponents.
 
 
-NOTE: Environmental effects such as wind, rain, poor lighting, etc. can reduce
+*Note*: Environmental effects such as wind, rain, poor lighting, etc. can reduce
 the range thresholds of the Near and Far distances. For instance, the GM might
 rule that, for a given battle taking place during a thunderstorm at night, the
 Near distance is 2 squares and the Far distance is 6 squares.
@@ -709,12 +708,12 @@ Damage from _vorpal_ attacks are carried over and can therefore cause multiple
 consequences from a single attack. Luckily vorpal attacks require special 
 weapons and/or special heroic powerups.
 
-Example:: If a character with 8 stress points receives additional 24 stress points
+*Example*: If a character with 8 stress points receives additional 24 stress points
 from a single strike, they get one consequence, and the stress counter is reset
 to zero. Thus it would not have mattered if the character got a 2-point wound
 or a 1000-point wound.
 
-Example:: If a character with 8 stress points receives additional 24 stress
+*Example*: If a character with 8 stress points receives additional 24 stress
 points from a single _vorpal_ attack, they get 3 consequences, and the stress
 counter is now 2 (8 + 25 = 32 = 3 · consequence + 2 · stress).
 
@@ -735,13 +734,5 @@ can still kill a character in one go.
 | 6             | Death.
 |===
 
-NOTE: Some NPCs can suffer more or fewer consequences, and some have higher or
+*Note*: Some NPCs can suffer more or fewer consequences, and some have higher or
 lower stress thresholds than normal characters.
-
-
-[appendix]
-== Appendix
-
-
-[index]
-== Index
