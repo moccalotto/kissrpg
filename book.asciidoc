@@ -121,8 +121,9 @@ You can see in complete darkness, but only in shades of gray.
 
 Famous::
 Once per session, at the cost of 1 karma, you can declare that a given person
-knows about you or your family and sees you in a positive light. This makes
-all your subsequent social challenges against that person open-ended.
+knows about you or your family and sees you in a positive light. This makes all
+your social challenges against that person open-ended for the rest of the
+session.
 
 Sprinter::
 During combat you can get extra Steps at the cost of 1 karma point per
@@ -144,8 +145,10 @@ You can see as well in dim light such as starlight or moonlight as if it were
 daylight.
 
 Nimble::
-Same effect as the »tiny« trait. A character that is both tiny and nimble will
-be able to avoid two attacks per scene, provided you have karma to spend.
+Once per scene you can completely avoid an attack. If you declare your intent
+to avoid the attack before the attacker rolls their dice it costs 2 karma
+points. If you want to avoid the attack after the attacker rolls their dice it
+costs 3 karma points.
 
 Overpowered::
 You have 8 powerup slots instead of 6.
@@ -153,7 +156,9 @@ You have 8 powerup slots instead of 6.
 Polyglot::
 When you hear or read a language that was not hitherto known by you, you can
 declare that you are familiar with it, enabling you to read, write and speak
-it. This can be done once per session and it costs 3 karma points.
+it for the rest of the session. This ability can be used once per session and
+it costs 3 karma points. You can also make the knowledge of the language
+permanent by spending 1 xp after spending the 3 karma points.
 
 Socialite::
 Once per session you can overcome a challenge of trust or etiquette by invoking
@@ -165,7 +170,7 @@ involve shady city connections, finding your way in cities, or evaluating black
 market prices.
 
 Strong::
-Once per scene you may redo tests that relies heavily and primarily on your
+Once per scene you may redo a test that relies heavily and primarily on your
 bodily strength. Doing so costs 1 karma.
 
 Stubborn::
@@ -173,20 +178,18 @@ When you have the “dying” condition, you are awake and conscious. You can ta
 actions like any normal character, but doing so costs a karma point.
 
 Tiny::
-Once per scene you can completely avoid an attack. If you declare your intent
-to avoid the attack before the attacker rolls their dice it costs 2 karma
-points. If you want to avoid the attack after the attacker rolls their dice it
-costs 3 karma points.
+Same effect as the »nimble« trait. A character that is both tiny and nimble will
+be able to avoid two attacks per scene, provided you have the necessary karma.
 
 Tough::
 Once per scene you can avoid avoid getting a Consequence from a single attack.
-Instead of getting a wound and resetting your stress points, your stress points
-are set to their maximum value, but you do not get the wound. Doing this costs
+Instead of getting a consequence and resetting your stress points, your stress points
+are set to their maximum value, but you do not get the consequence. Doing this costs
 one karma point.
 
 Wealthy::
 At the cost of one Karma, you and your party can stay for a night at the very
-best inn in town.  Additionally, once per session, at the cost of one Karma,
+best inn in town.  Additionally, once per session, at the cost of one karma,
 you can purchase one luxury item such as perfume, aristocratic/court garments,
 a small piece of jewelry, etc.
 
@@ -538,7 +541,7 @@ light effects) require concentration.
   sewing, mending. The spiritual servant has the same physical strength as a
   small child, but same size as the caster.
 * Instantly create a bonfire, even though you have no fuel.
-* Instantly create one "fancy" mean, including water and ale.
+* Instantly create one "fancy" meal, including water and ale.
 
 | 5
 | 1
@@ -575,18 +578,19 @@ Willpower test against the illusionist's Arcana.
 |
 * Create a small, animated illusory image the size of your head that lasts as
   long as you sustain it.
-* Disguise self. Change your clothing, gender, race and physical appearance.
-  light sword. You can use your Arcana skill to attack with the weapon.
-* §§§§ Message (range: 50 meters)
-
+* Disguise self: Change your clothing, gender, race and physical appearance.
+* Light Sword: Sword made out of light is created in your hand, you can use
+  your Arcana skill to attack with it, but it does no real damage.
+* Send Message: Whisper a message, that can be heard by a specific ally within
+  50 meters.
 | 2
 | 1
 |
-* Create an illusory melee weapon that has the same characteristics as a
-  light sword. You can use your Arcana skill to attack with the weapon.
-* Disguise other. Change clothing, gender, race and physical appearance of an ally in sight.
+* Flaming Sword: Same as Light Sword, but the weapon actually does damage.
+* Disguise other: Change clothing, gender, race and physical appearance of an
+  ally in sight.
 * Disguise self for 8 hours.
-* §§§§ Message (range: 500 meters)
+* Send Message (range: 500 meters)
 
 | 3
 | 1
